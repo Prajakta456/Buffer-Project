@@ -1,5 +1,14 @@
 # Buffer-Project
-
+The code is divided into 5 classes:Main,Tourpackage,Customer,Admin,Registered Users.
+The Admin is given functionalities like
+1.Add a tour package,
+2.Delete a tour package,
+3.Modify a tour package,
+4.Display a tour package
+5.View the customers according to their priority in a tour package
+0.Allocate customers finally
+The Customer can select a particular tour and based on the number of memebers and his membership the customers are given discounts.
+Priority Queue has been implemented for giving the Customers discounts.
 
 
 
