@@ -87,10 +87,10 @@ Prajakta Deokule, Arundhati Korlahalli, Akhila Nori, Chinmayi Adsul
 
 
 
-Arundhati Korlahalli-Priority Queue
+Arundhati Korlahalli-Customer functionalities 
 
-Prajakta Deokule-Main and other functionalities
+Prajakta Deokule-Priority Queue and Main
 
-Akhila Nori-Hotel booking
+Akhila Nori-Hotel booking 
 
 Chinmayi Adsul-Tour package itineraries
