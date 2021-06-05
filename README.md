@@ -85,9 +85,11 @@ The customer can be given options like travel by air,railway or road and that se
 Contributors:
 Prajakta Deokule, Arundhati Korlahalli, Akhila Nori, Chinmayi Adsul
 
-Prajakta Deokule-Main and other functionalities
+
 
 Arundhati Korlahalli-Priority Queue
+
+Prajakta Deokule-Main and other functionalities
 
 Akhila Nori-Hotel booking
 
