@@ -1,5 +1,5 @@
 # Buffer-Project
-The code is divided into 5 classes:Main,Tourpackage,Customer,Admin,Registered Users.
+The code is has 6 classes:Main,Tourpackage,Customer,Admin,Registered Users,CustomerComparator.
 The Admin is given functionalities like
 1.Add a tour package,
 2.Delete a tour package,
@@ -86,5 +86,7 @@ The customer can be given options like travel by air,railway or road and that se
 
 Contributors:
 Prajakta Deokule, Arundhati Korlahalli, Akhila Nori, Chinmayi Adsul
-
-
+Prajakta Deokule-Main and Customer functionalities
+Arundhati Korlahalli-Admin functionalities
+Akhila Nori-Hotel booking
+Chinmayi Adsul-Tour package itineraries
