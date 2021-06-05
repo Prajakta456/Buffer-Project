@@ -2,18 +2,19 @@
 The code is has 6 classes:Main,Tourpackage,Customer,Admin,Registered Users,CustomerComparator.
 
 The Admin is given functionalities like
+1)Add a tour package : The admin would enter the tour ID that he wants to add. If the tour ID already exists, validations are written . If he enters a new tour package, then it is correspondingly added to the LinkedList tours.
 
-1.Add a tour package,
+2)Delete a tour package : Admin has the power to delete a tour package. For this first he needs to enter the tour id correctly that he wants to delete and if he entered it correctly then using an iterator we are traversing the tour package till the desired Tour ID is found.
 
-2.Delete a tour package,
+Once we reach the desired tour package to be deleted, we are deleting it using an inbuilt method remove() from LinkedList class.
 
-3.Modify a tour package,
+3)Modify a tour package : This function modifies the tourpackage details, for the tour ID that the user enters
 
-4.Display a tour package
+4)Display a tour package : Using iterator we are traversing the tourpackages and displaying their contents.
 
-5.View the customers according to their priority in a tour package
+5)We have also written a function where the admin has the power to view the customers according to their priority in a tour package.
 
-0.Allocate customers finally
+6)Admin finally allocates the customers and displays their discounted amount
 
 The Customer can select a particular tour and based on the number of memebers and his membership the customers are given discounts.
 
