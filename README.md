@@ -2,6 +2,7 @@
 The code is has 6 classes:Main,Tourpackage,Customer,Admin,Registered Users,CustomerComparator.
 
 The Admin is given functionalities like
+
 1.Add a tour package,
 
 2.Delete a tour package,
@@ -26,19 +27,6 @@ Priority Queue has been implemented for giving the Customers discounts.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-Hey
 
 
 
