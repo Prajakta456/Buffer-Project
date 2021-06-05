@@ -70,12 +70,14 @@ Priority Queue has been implemented for giving the Customers discounts.
 
 
 Future Scope of the Project:
-
+We will be adding 
 Database (MySql) can be used for storing the Tours and Customers data.
 
-The customer can be given options like travel by air,railway or road and that service can be provided.
+The customer can be given various travelling options like travelling by air,railway or road.
 
+Website(Graphical User Interface) will be created for visual appeal and wider reach.
 
+Exciting tour packages for international travel can be made available
 
 
 
