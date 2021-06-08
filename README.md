@@ -86,10 +86,11 @@ Exciting tour packages for international travel can be made available
 
 
 Contributors:
-Prajakta Deokule, Arundhati Korlahalli, Akhila Nori, Chinmayi Adsul
+Arundhati Korlahalli,Prajakta Deokule, Akhila Nori, Chinmayi Adsul
 
 
 Mentor:Vallari Rajurkar
+
 Arundhati Korlahalli-Customer functionalities 
 
 Prajakta Deokule-Priority Queue and Main
