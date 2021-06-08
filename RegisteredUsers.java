@@ -1,5 +1,5 @@
 package tourism;
-//import java.util.Iterator;
+import java.util.Iterator;
 public class RegisteredUsers 
 {
 		   String cname;
@@ -13,4 +13,5 @@ public class RegisteredUsers
 		    this.cname=cname;
 		    this.password=password;  
 		  }
+	
 }
