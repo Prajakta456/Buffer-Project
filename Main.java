@@ -10,24 +10,16 @@ public class Main
 	    System.out.println("WELCOME TO OUR TOURISM AGENCY");
 	    System.out.println("=======================================================================================");
 	    Scanner sc=new Scanner(System.in);
-	    int floor=-1,room=-1,chhhh;
+	    int floor=-1,room=-1,chhhh,inc=0;
 	    
 	    int tourIDselected,choiceToallot;
 	     LinkedList<Tourpackage> tours = new LinkedList<Tourpackage>();
 	     LinkedList<Customer>customer = new LinkedList<Customer>();
-	     
-	     
-	     
-        
-        
+
 	     int counterTourID=2108;
-	     
-	    
-	     //*****add some tour packages here ie initialize them here some others can be shown as added by admin
-	     /*variables in Tourpackage are int tourid,String citiesToVisit,int noOfDays,StringBuffer itinerary*/
-	     //for reference
-	        
-	    
+	 
+	      /*variables in Tourpackage are int tourid,String citiesToVisit,int noOfDays,StringBuffer itinerary*/
+	
 	     
 	    StringBuilder sb0=new StringBuilder(1000);
 	    sb0.append("\n*********************************************************\n\n2100)MAGICAL MANALI ");
@@ -116,7 +108,7 @@ public class Main
 	    
 	   
 	    //Initializing already registered customers
-	       //create linked list called Registered Users
+	   //create linked list called Registered Users
 	    LinkedList<RegisteredUsers> ru= new LinkedList<RegisteredUsers>();
 	    ru.add(new RegisteredUsers("Narayani Baheti","hello123",'G'));
 	    ru.add(new RegisteredUsers("Pallavi Kulkarni","hello456",'P'));
@@ -128,7 +120,7 @@ public class Main
 	    ru.add(new RegisteredUsers("Pravin Sharma","hello550",'s'));   
 	    ru.add(new RegisteredUsers("Ameya Bondre","hello660",'g'));   
 	    ru.add(new RegisteredUsers("Sagar Chawla","hello770",'p'));   
-	    ru.add(new RegisteredUsers("Anagha Buwa","hello880",'G'));   
+	    ru.add(new RegisteredUsers("Anagha Rawat","hello880",'G'));   
 	    ru.add(new RegisteredUsers("Aditi Jain","hello990",'s'));   
 	    int choice;
 	                 do
@@ -174,11 +166,7 @@ public class Main
 	             	                  }
 	             	                 
 	             	             }
-	                                
-	                              
 	     
-	                                      
-	              
 	              if(counter<4)                     
 	               {  int choice1;
 	                   do
@@ -213,6 +201,7 @@ public class Main
 	            	        {
 	            	           if(tours.get(i).isFilled==true)
 	            	          {             
+	            	        	  inc++;
 	            	        	 tours.get(i).Discounted(tr);  
 	            	          }
 	            	           else
@@ -224,19 +213,13 @@ public class Main
 	         	            }while(chstop==1);
 	         	            break;
 	                    case 1://under add package
-	                    	  if(counterTourID<=10)
-	                    	  {
+	                    	  
 	                          Tourpackage tp1=new Tourpackage();
 	                          tp1.createPackage(counterTourID);
 	                          counterTourID++;
 	                          tours.add(tp1);
 	                          System.out.println("\nTour package added!!");                            
-	                    	  }
-	                    	  else
-	                    	  {
-	                    		  System.out.println("\nSorry currently more tours cannot be added!!");
-	                    		  System.out.println("\nDelete a tour to add new ones!!");
-	                    	  }
+	                    	  
 	                          break;
 	                          
 	                    case 2://delete tour package 
@@ -303,15 +286,15 @@ public class Main
 	                                System.out.println("Enter the itinerary details");
 	                                System.out.println("Enter the number of lines you want to enter");
 	            	                int l=local1.nextInt();
-	            	                storestr=new String[l];
+	            	                storestr=new String[l+1];
 	            	                
-	            	                for(int i=0;i<l;i++)
+	            	                for(int i=0;i<l+1;i++)
 	            	                {
 	            	                	storestr[i]=local.nextLine();
 	            	                	
 	            	                }
 	            	                it=new StringBuilder("\n*********************************************************\n\n"+temp.tourid+")"+temp.tourname);
-	            	                for(int i=0;i<l;i++)
+	            	                for(int i=0;i<l+1;i++)
 	            	                {
 	            	                	it.append("\n\n"+storestr[i]);
 	            	                }
@@ -382,7 +365,7 @@ public class Main
 		                		      for(Customer c2:tours.get(i).pq)
 	            	                  {
 	            	            	  System.out.println(c2.name);
-	            	            	  System.out.println(c2.priority);
+	            	            	  //System.out.println(c2.priority);
 	            	                  }
 		                		      break;
 		                	       }
@@ -424,93 +407,27 @@ public class Main
 	               do
 	               {  Customer c1=new Customer();
 	                   Scanner sch=new Scanner(System.in);
-	                 
+	                   int signed;
+	                 //1.create new account 
+	                 //2.login exiting account
+	                 //3.exit
 	                 System.out.println("**************************************************************************");
 	                 System.out.println("Welcome To Customer's Login Page");
 	                 System.out.println("**************************************************************************");
-	                 System.out.println("As a customer you have 3 options:");
-	                 System.out.println("1.Create a new account");
-	                 System.out.println("2.Login as an existing Customer");
-	                 System.out.println("3.Exit");
+	                 System.out.println("As a customer:");
+	                 System.out.println("1.Create/Login Account");
+	                 System.out.println("2.Exit");
 	                 System.out.println("***************************************************************************");
 	                 //accept choice chh
 	                 System.out.println("Enter your choice:");
-	                 chh=sc.nextInt();
-	                 
-	                
-	                 
-	                 String customerName;
-	                 String customerPassword;
-	                 int flag1=0;
-	                 if(chh==1)//for create account :add customer's account in RegisteredUsers
+	                 chh=sch.nextInt();
+	           
+	                 if(chh==1)
 	                 {
-	                   System.out.println("You can create your Customer account here");
-	                   System.out.println("Enter your name:");
-	                   customerName=sc.next();
-	                  
-	                                   
-	                   System.out.println("Create password for your account:");
-	                   customerPassword=sch.next();
-	                                      
-	                   	                   
-	                   RegisteredUsers ru2=new RegisteredUsers(customerName,customerPassword,'N');
+	                    signed=c1.signupLogin(ru);
 	                   
-	                    ru.add(ru2);
-	                   System.out.println("Account Successfully created!!");
-	                   System.out.println("Now you can enter the tour portal as a customer");            
-	                 }                  
-	                 else if(chh==2)
-	                 {
-	                    Scanner sc1=new Scanner(System.in);
-	                    int choiceToContinue;
-	                   //for existing account we can ask for password and if it matches then customer allowed to enter
-	                   //linkedlist of users can contain name password if it matches then customer already has account
-	                   do
-	                   {
-	                	   Scanner sc6=new Scanner(System.in);
-	                   int flag=0;
-	                   System.out.println("Enter name and password to login as a customer:");
-	                   System.out.println("Enter name :");
-	                   String n=sc6.nextLine();
-	                   System.out.println("Enter password:");
-	                   String p=sc6.nextLine();
-	                   //RegisteredUsers ru1=new RegisteredUsers(n,p);
-	                   for(int i=0;i<ru.size();i++) {
-	                	   if(ru.get(i).cname.equalsIgnoreCase(n)&&ru.get(i).password.equals(p)) {
-	                		   System.out.println("LOGIN SUCCESSFULL");
-	                		   flag=1;
-	                	   }
-	                   }
-	                   //int i=ru.indexOf(ru1);
-	                   if(flag==0)
-	                   {
-	                     System.out.println("Account not found");
-	                     System.out.println("Try again");
-	                     System.out.println("Do you want to try again? enter 1 for yes and 0 for no");
-	                      choiceToContinue=sc1.nextInt();
-	                   }
-	                    else
-	                    {
-	                      System.out.println("Account Found");
-	                      break;
-	                    }         
-	                  }while(choiceToContinue==1);
-	                 }
 	                 
-	                	 
-	                	 
-	                	
-	                 else if(chh==3)
-	                 {
-	                	 System.out.println("Exit");
-	                     break;
-	                 }
-	                 else
-	                 {
-	                   //chh is other than 1,2,3
-	                   System.out.println("Invalid choice");
-	                   continue;
-	                 }
+	                 
 	                 
 	                 //once customer enters tourism portal
 	                 System.out.println("*****************************************************************************");               
@@ -524,17 +441,63 @@ public class Main
 	                	 
 	                 }
 	                 
+	               
 	               //ask user for choice that is which tour he wants to book 
+	               do 
+	               {
 	                  Customer customer1=new Customer();
 	                  System.out.println("**********************************************************************");
 	              	 System.out.println("Customer's Menu:");
-	                 System.out.println("\n1.Grab a slot in any tour?");
-	                 System.out.println("\n2.View the customers according to their priority in my tour package");
-	                 System.out.println("**********************************************************************");
+	              	System.out.println("\n1.Display a tour package");
+	              	System.out.println("\n2.Grab a slot in any tour?");
+	                System.out.println("\n3.View the customers according to their priority in my tour package");
+	                System.out.println("\n4.View Bill:"); 
+	                System.out.println("\n5. Exit:");
+	                System.out.println("**********************************************************************");
 	                 System.out.println("\nEnter choice:");
-	                 chhhh=sc.nextInt();
-	                 
-	                 if(chhhh==1)
+	                 Scanner sss=new Scanner(System.in);
+	                 chhhh=sss.nextInt();
+	                 switch (chhhh) {
+	                 case 1:
+	                 {
+	                	//display a package
+                         System.out.println("Enter the tour id of the tour package to be displayed:");
+                         int ide1=sc.nextInt();
+                           int index11=-1,c11=0;
+                          Iterator<Tourpackage> iterator9=tours.iterator();
+                         while(iterator9.hasNext())
+                         {
+                             index11++;
+                             //System.out.println(index);
+                           if(ide1 == iterator9.next().tourid)
+                             {
+                                c11++;
+                                break;
+                             }
+                           
+                          }
+
+
+                          if(c11==0)
+                          {
+                            System.out.println("Tour ID not found");
+                          }
+
+                         else
+                         {
+                            Tourpackage tp2;
+                            System.out.println("***************************************************************************");
+        	                 System.out.println("\nThe tour details are as follows ");
+                           tp2=tours.get(index11);
+                           System.out.println("\nThe tourid of the package is "+tp2.tourid+"\nThe name of the tour package is "+tp2.tourname+"\nThe cities to visit of the package are "+tp2.citiesToVisit+"\nThe number of days of the package is "+tp2.noOfDays+"\nThe itinerary of the package is "+tp2.itinerary);
+                           System.out.println("***************************************************************************");
+       	                
+                         }
+                         
+                    
+                        break;
+                      }
+	                 case 2:
 	                 {//ACCEPT USER DETAILS HERE VIA A FUNCTION
 	                  
 	                   int checker=customer1.acceptDetails(ru);        
@@ -637,8 +600,9 @@ public class Main
                          }
                          }
 	                  }
+	                   break;
 	                 }
-	                 if(chhhh==2)
+	                 case 3:
 	                 {
 	                	 System.out.println("\nEnter the tour ID of the package whose customers you want to allocate:");
                          int tourID=sc.nextInt();
@@ -656,12 +620,12 @@ public class Main
        	            	  System.out.println(c2.name);
        	            	  System.out.println(c2.priority);
        	                  }
-               		      break;
-               		       }
+              
+               		      }
                	        	else
                	        	{
                	        		System.out.println("Tour booking is not done yet so cannot view");
-               	        		break;
+               	        		//break;
                	        		
                	        	}
                	       }
@@ -675,14 +639,34 @@ public class Main
                        break;
 	                 }
 	                 
-	                   else
-	                   {
-	                	   System.out.println("Didn't like any packages?No problem,we keep adding new packages every month.Try again");
-	                    }
+	                	   	                    
 	                   
-	                   
-	                    
-	               }while(chh!=3);   //closing do while of customer
+	                 case 4:{
+	                	 
+	                	 if(inc==1)
+	                	 customer1.billing(tours);
+	                	 else
+	                		System.out.println("Registration process is not finished.Try again later to see discount");
+	                  }
+	                 }   
+	               }while(chhhh!=5);    
+	               
+	                 }//closing do while of customer
+	               
+	               else if(chh==2)
+	                 {
+	                	 System.out.println("Exit");
+	                     break;
+	                     
+	                 }
+	                 else
+	                 {
+	                   //chh is other than 1,2,3
+	                   System.out.println("Invalid choice");
+	                   continue;
+	                  
+	                 } }while(chh!=2);
+	              
 	               case 3:System.out.println("Thank you for visting us");
 	                      break;
 	               default:System.out.println("Wrong choice TRY AGAIN");
@@ -695,4 +679,3 @@ public class Main
 	                 System.out.println("\nExited");
 	        }//close main function
 	}//close main class
-
