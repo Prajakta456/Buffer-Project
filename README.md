@@ -70,6 +70,7 @@ Priority Queue has been implemented for giving the Customers discounts.
 
 
 Future Scope of the Project:
+
 We will be adding 
 Database (MySql) can be used for storing the Tours and Customers data.
 
@@ -98,3 +99,4 @@ Prajakta Deokule-Priority Queue and Main
 Akhila Nori-Hotel booking 
 
 Chinmayi Adsul-Tour package itineraries
+The rest of the code was done by all of us together.
