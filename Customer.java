@@ -1,7 +1,7 @@
 package tourism;
 import java.util.*;
 import java.lang.*;
-public class Customer
+public class Customer extends Main
 {
 	 String name;
 	 int noOfMembers;
@@ -11,23 +11,22 @@ public class Customer
 	 char vegOptions;
 	  int priority;
 	  int selectedTour;
-	  int totalamt;
-	  int roomcharge;
-	  int totalhotelc;
-	  //private int priority;
+	  double totalamt;
+	  double roomcharge;
+	  double totalhotelc;
+	 
 	  Customer()
 	  {
 	     this.name = "";
 	     this.noOfMembers = 0;
 	     this.emailID = "";
 	     this.phoneNo = "";
-	     this.membership = '0';
 	     this.vegOptions = '0';
 	     this.priority=0;
 	     this.selectedTour=0;
-	     this.totalamt=0;
-	     this.roomcharge=0;
-	     this.totalhotelc=0;
+	     this.totalamt=0.0;
+	     this.roomcharge=0.0;
+	     this.totalhotelc=0.0;
 	  }
 
 	  
@@ -94,13 +93,13 @@ public class Customer
 	          Scanner scad4 = new Scanner(System.in);
 	          Scanner scad5 = new Scanner(System.in);
 	          
-	          
+	          int flag=0;
 	         //***accepting details
 	           do
 	          {
 	        	   
 		             System.out.println("Enter your name :");
-		             name = scad1.next();
+		             name = scad1.nextLine();
 		              int c=0;
 		               for(int j=0;j<name.length();j++)
 		               {
@@ -120,13 +119,16 @@ public class Customer
       		      while (iter4.hasNext()) 
       		      {
       		         RegisteredUsers temp1 = iter4.next();
-      		         if(temp1.cname.equals(name))
+      		         if(temp1.cname.compareTo(name)==0)
       		         {
-      		        	 
-      			      membership=temp1.membership1;
+      		        	 flag++;
+      		        	membership=temp1.membership1;
+      		        	 System.out.println(membership);
       			      break;
       		         }
       		       }
+      		      if(flag==0)
+      		    	System.out.println("Not found in registered users");
       	
 	                    //***accepting email id
 	                     do
@@ -180,23 +182,7 @@ public class Customer
 	                        }
 	                   }while(true);
 	    
-	                //***accepting membership of customer
-	                    /*  do
-	                     {
-	                       System.out.println("Enter your membership - \n\t 'P' for Platinum\t'G' for Gold\t'S' for Siver \t'N' for none:");
-	                        membership = scad5.next().charAt(0);
-	                         membership=Character.toUpperCase(membership);  
-	                         if(membership=='P'||membership=='G'||membership=='S'||membership=='N')
-	                         {
-	                           break;
-	                         }
-	                        else
-	                         {
-	                          System.out.println("Incorrect information entered try again");
-	                           continue;
-	                         }
-	                      }while(true);*/
-	        
+	                
 	            //***accepting veg or non veg option 
 	                     do
 	                     {
@@ -264,4 +250,88 @@ public class Customer
 	         
 	        }
        }//close calculatePriority()
+	     
+	        
+	    int signupLogin(LinkedList<RegisteredUsers> ru5)
+	     {
+	    	 Scanner sc1=new Scanner(System.in);
+             int choiceToContinue=1;
+            //for existing account we can ask for password and if it matches then customer allowed to enter
+            //linkedlist of users can contain name password if it matches then customer already has account
+           int signUpMe;
+               
+         	   Scanner sc6=new Scanner(System.in);
+            int flag=0;
+            while(choiceToContinue!=0)
+            {
+            System.out.println("Enter name and password to login as a customer:");
+            System.out.println("Enter name :");
+            String n=sc6.nextLine();
+            System.out.println("Enter password:");
+            String p=sc1.next();
+            //RegisteredUsers ru1=new RegisteredUsers(n,p);
+            
+            Iterator<RegisteredUsers>it=ru5.iterator();
+            
+            for(int i=0;i<ru5.size();i++) 
+            {
+         	   if(ru5.get(i).cname.compareToIgnoreCase(n)==0&&ru5.get(i).password.equals(p)) 
+         	   {
+         		   System.out.println("LOGIN SUCCESSFULL");
+         		   flag=1;
+         		   return 1;
+         	   }
+            }
+            //int i=ru.indexOf(ru1);
+            if(flag==0)
+            {
+            	Scanner sc9=new Scanner(System.in);
+                System.out.println("Account not found");
+                System.out.println("Try again");
+                System.out.println("Do you want to signup? enter 2 for yes and 0 for no");
+                signUpMe=sc9.nextInt();
+                if(signUpMe==2)
+                {
+                	String customerName;
+	                 String customerPassword;
+	                 int flag1=0;
+	                   System.out.println("You can create your Customer account here");
+	                   System.out.println("Enter your name:");
+	                   customerName=sc6.next();
+	                  
+	                                   
+	                   System.out.println("Create password for your account:");
+	                   customerPassword=sc6.next();
+	                                      
+	                   	                   
+	                   RegisteredUsers ru2=new RegisteredUsers(customerName,customerPassword,'N');
+	                   
+	                    ru5.add(ru2);
+	                   System.out.println("Account Successfully created!!");
+	                   System.out.println("Now you can enter the tour portal as a customer");  
+	                   //sc9.close();
+	                   return 1;
+	                  
+                }
+             }
+     
+          }
+            return 0;
+	     }
+	    void billing(LinkedList<Tourpackage> tours) 
+	    {
+	    	Tourpackage temp=new Tourpackage();
+	    	for(int i=0;i<tours.size();i++)
+	    	{
+	    		if(selectedTour==tours.get(i).tourid)
+	    			temp=tours.get(i);
+	    	}
+	    	for(int j=0;j<temp.d.size();j++) {
+	    		if(name.equals(temp.d.get(j).acName)) {
+	   		     System.out.println("Your final bill without hotal charges:"+temp.d.get(j).totalWithoutHotel);
+	   		     System.out.println("Your final bill with hotal charges:"+temp.d.get(j).total);
+	    		}
+	    	}
+	    }
+	 
 }
