@@ -19,7 +19,7 @@ We will be adding
 2.The customer can be given various travelling options like travelling by air,railway or road.
 3.Website(Graphical User Interface) will be created for visual appeal and wider reach.
 
-
+Read the travel_buffer_modified-converted.pdf for detailed functionalities
 Contributors:
 Arundhati Korlahalli,Prajakta Deokule, Akhila Nori, Chinmayi Adsul
 
