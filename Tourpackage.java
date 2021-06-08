@@ -9,9 +9,7 @@ public class Tourpackage
 	   int priceOftourpermember;
 	   boolean isFilled;
 	   LinkedList<Accounts> d = new LinkedList<Accounts>();
-	   
-	   
-	   
+	      
 	   int availablerooms=12;
 	   
 	   //in each city of each tour we have similar structure hotel
@@ -67,8 +65,6 @@ public class Tourpackage
 		  }
 				  
 		  return 5;		
-			 
-	
 	  }
 	   int getTourId()
 	   {
@@ -105,10 +101,7 @@ public class Tourpackage
 	               
 	               System.out.println("Enter the number of days of the new package");
 	                noOfDays=sc.nextInt();
-	                
-	                
-
-	                
+	          
 	                System.out.println("Enter the itinerary details");
 	                
 	                System.out.println("Enter the number of lines you want to enter");
@@ -125,8 +118,7 @@ public class Tourpackage
 	                {
 	                	itinerary.append("\n"+storestr[i]);
 	                }               
-	               
-	     
+	           
 	   }
 	  
 	   public void displayPackage()
