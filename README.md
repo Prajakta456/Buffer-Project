@@ -23,52 +23,6 @@ Priority Queue has been implemented for giving the Customers discounts.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Future Scope of the Project:
 
 We will be adding 
@@ -79,10 +33,6 @@ The customer can be given various travelling options like travelling by air,rail
 Website(Graphical User Interface) will be created for visual appeal and wider reach.
 
 Exciting tour packages for international travel can be made available
-
-
-
-
 
 
 
