@@ -148,7 +148,6 @@ Welcome to Admin Page:
 2.Delete a tour package
 3.Modify a tour package
 4.Display a tour package
-5.View the customers according to their priority in a tour package
 0.Allocate customers finally
 6.Exit
 ***************************************************************************
@@ -506,7 +505,6 @@ Welcome to Admin Page:
 2.Delete a tour package
 3.Modify a tour package
 4.Display a tour package
-5.View the customers according to their priority in a tour package
 0.Allocate customers finally
 6.Exit
 ***************************************************************************
@@ -522,7 +520,6 @@ Welcome to Admin Page:
 2.Delete a tour package
 3.Modify a tour package
 4.Display a tour package
-5.View the customers according to their priority in a tour package
 0.Allocate customers finally
 6.Exit
 ***************************************************************************
@@ -538,27 +535,6 @@ Welcome to Admin Page:
 2.Delete a tour package
 3.Modify a tour package
 4.Display a tour package
-5.View the customers according to their priority in a tour package
-0.Allocate customers finally
-6.Exit
-***************************************************************************
-Enter your choice:
-5
-
-Enter the tour ID of the package whose customers you want to allocate:
-2102
-Customers served in this priority order
-
-Do you want to allot another tour package customers?
-0
-**************************************************************************
-Welcome to Admin Page:
-***************************************************************************
-1.Add a tour package
-2.Delete a tour package
-3.Modify a tour package
-4.Display a tour package
-5.View the customers according to their priority in a tour package
 0.Allocate customers finally
 6.Exit
 ***************************************************************************
@@ -1529,8 +1505,6 @@ Customer's Menu:
 1.Display a tour package
 
 2.Grab a slot in any tour?
-
-3.View the customers according to their priority in my tour package
 
 4. Exit:
 **********************************************************************
@@ -2512,29 +2486,8 @@ Customer's Menu:
 
 2.Grab a slot in any tour?
 
-3.View the customers according to their priority in my tour package
-
 4. Exit:
-**********************************************************************
 
-Enter choice:
-3
-
-Enter the tour ID of the package whose customers you want to allocate:
-2103
-Customers served in this priority order
-Tour booking is not done yet so cannot view
-Tour id not found,Cannot show its customers
-**********************************************************************
-Customer's Menu:
-
-1.Display a tour package
-
-2.Grab a slot in any tour?
-
-3.View the customers according to their priority in my tour package
-
-4. Exit:
 **********************************************************************
 
 Enter choice:
@@ -3348,8 +3301,6 @@ Customer's Menu:
 1.Display a tour package
 
 2.Grab a slot in any tour?
-
-3.View the customers according to their priority in my tour package
 
 4. Exit:
 **********************************************************************
