@@ -3500,4 +3500,4 @@ Exited
 //after that Aditi Jain was alloted a tour
 //last Sanika was alloted a tour as she had least priority because she had No membership and number of members were also less(5).
 
-//after that Shruti Deshpande was alloted a tour as she had S membership an
+
