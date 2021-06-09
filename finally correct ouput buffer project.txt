@@ -1,0 +1,3494 @@
+=======================================================================================
+WELCOME TO OUR TOURISM AGENCY
+=======================================================================================
+1.Login as a Admin
+2.Login as a Customer
+3.Exit
+1
+Welcome to Login Page for ADMINS
+Enter your name to login:
+Prajakta
+Enter security key (password) to login:
+admin101@11
+LOGIN SUCCESFUL AS ADMIN
+**************************************************************************
+Welcome to Admin Page:
+***************************************************************************
+1.Add a tour package
+2.Delete a tour package
+3.Modify a tour package
+4.Display a tour package
+0.Allocate customers finally
+6.Exit
+***************************************************************************
+Enter your choice:
+4
+Enter the tour id of the tour package to be displayed:
+2108
+Tour ID not found
+**************************************************************************
+Welcome to Admin Page:
+***************************************************************************
+1.Add a tour package
+2.Delete a tour package
+3.Modify a tour package
+4.Display a tour package
+0.Allocate customers finally
+6.Exit
+***************************************************************************
+Enter your choice:
+4
+Enter the tour id of the tour package to be displayed:
+2103
+***************************************************************************
+
+The tour details are as follows 
+
+The tourid of the package is 2103
+The name of the tour package is Colourful Rajasthan
+The cities to visit of the package are Jaipur, Jodhpur, Jaisalmer, Udaipur
+The number of days of the package is 8
+The itinerary of the package is 
+*********************************************************
+
+2103)COLOURFULL RAJASTHAN
+
+Day 1 - Arrival in Jaipur
+
+Day 2 - Sightseeing in Jaipur
+1.Amer Fort
+
+Day 3 - Jaipur to Jodhpur
+Sightseeing in Jaisalmer
+1.Umaid Bhawan Palace
+
+Day 4 - Jodhpur to Jaisalmer
+1.Mehrangarh Fort
+2.Jaswant Thada
+
+Day 5 - Jaisalmer
+Sightseeing in Jaisalmer
+1.Nathdwara
+2.Patwaon ki Haveli
+3.Sam Sand Dunes
+
+Day 6 - Jaisalmer to Udaipur(travel)
+
+Day 7 - Udaipur
+Sightseeing in Udaipur
+1.Saheliyon ki Bari
+2.City Palace
+3.Sajjangarh Palace
+
+Day 8 - Departure from Udaipur
+Breakfast at Hotel in Udaipur
+***************************************************************************
+**************************************************************************
+Welcome to Admin Page:
+***************************************************************************
+1.Add a tour package
+2.Delete a tour package
+3.Modify a tour package
+4.Display a tour package
+0.Allocate customers finally
+6.Exit
+***************************************************************************
+Enter your choice:
+1
+Tour id of new package is assigned as 2108
+Enter the tour name of new package
+Mesmerzing Uttarakhand
+Enter the price of the tour package per member
+10000
+Enter the cities to visit(Enter one after another)
+Dehradun,Haldwani
+Enter the number of days of the new package
+2
+Enter the itinerary details
+Enter the number of lines you want to enter
+2
+Enjoy the natural scenic beauty of the mountains
+See the beautiful rivers and do some adventure sports also
+
+Tour package added!!
+**************************************************************************
+Welcome to Admin Page:
+***************************************************************************
+1.Add a tour package
+2.Delete a tour package
+3.Modify a tour package
+4.Display a tour package
+0.Allocate customers finally
+6.Exit
+***************************************************************************
+Enter your choice:
+4
+Enter the tour id of the tour package to be displayed:
+2108
+***************************************************************************
+
+The tour details are as follows 
+
+The tourid of the package is 2108
+The name of the tour package is Mesmerzing
+The cities to visit of the package are Dehradun,Haldwani
+The number of days of the package is 2
+The itinerary of the package is 
+*********************************************************
+
+2108)Mesmerzing
+ Uttarakhand
+Enjoy the natural scenic beauty of the mountains
+See the beautiful rivers and do some adventure sports also
+***************************************************************************
+**************************************************************************
+Welcome to Admin Page:
+***************************************************************************
+1.Add a tour package
+2.Delete a tour package
+3.Modify a tour package
+4.Display a tour package
+5.View the customers according to their priority in a tour package
+0.Allocate customers finally
+6.Exit
+***************************************************************************
+Enter your choice:
+3
+Enter the tourid of the package to be modified
+2108
+Package found
+Enter the tour name of new package
+Majestic Uttarakhand
+Enter the tour package price for one member
+12000
+Enter the cities to visit(Enter one after another)
+Dehradun
+Enter the number of days of the new package
+3
+Enter the itinerary details
+Enter the number of lines you want to enter
+2
+Enjoy the tour of Uttarakhand
+Book your slot soon
+**************************************************
+
+Tour name  is:Magical Manali
+
+Tour id is:2100
+
+Cities to visit are:Manali, Jagatsukh, Bahangan Nullah
+
+Number of days of the tour :6
+
+The price per member is:10000
+
+The itinerary is:
+*********************************************************
+
+2100)MAGICAL MANALI 
+
+Day 1 - Manali – Jagatsukh – Khanul
+Village of Jagatsukh to Bahangan Nullah
+Bahangan Nullah serves as your first day’s campsite. 
+
+Day 2 - Camping Site At Prini
+
+Day 3 - A trek of about five kilometres in The Himalayan Mountain ranges
+
+Day 4 - Adeventure attractions:
+1.Burma Bridge
+2. Commando Net
+
+Day 5 - The Mall Road and head back towards the central hill station of Manali.
+
+Day 6 - Shopping and on-foot exploration of the hill station
+Then Manali – Delhi
+**************************************************
+**************************************************
+
+Tour name  is:Historical Maharashtra
+
+Tour id is:2101
+
+Cities to visit are:Mumbai, Nashik, Aurangabad ,Shirdi
+
+Number of days of the tour :6
+
+The price per member is:9000
+
+The itinerary is:
+*********************************************************
+
+2101)HISTORICAL MAHARASHTRA
+
+Day 1 - Arrival in Mumbai
+On reaching Mumbai, check in at the hotel for the night
+
+Day 2 - Sightseeing in Aurangabad
+Post breakfast,cover Elephanta Island and Elephanta Caves
+
+Day 3 - Nashik Sightseeing
+Cover Panchavati Temple, Kalaram Temple, Bhaktidham and Trimbakeshwar
+
+Day 4 - Arrival to Shirdi
+Visit Sai Baba Mandir today
+
+Day 5 - Visit Ajanta Caves
+Enjoy a visit to the rock cut Ajanta Caves today. 
+
+Day 6 - Shirdi Sightseeing
+Enjoy a visit to the Ellora Caves today.
+**************************************************
+**************************************************
+
+Tour name  is:Amazing Ooty and Mysore with Banglore
+
+Tour id is:2102
+
+Cities to visit are:Bangalore, Mysore, Ooty
+
+Number of days of the tour :5
+
+The price per member is:15000
+
+The itinerary is:
+*********************************************************
+
+2102)AMAZING OOTY & MYSORE WITH BANGLORE
+
+Day 1 - Bangalore
+1.Bull Temple
+2.Commercial Street
+3.Vidhana Soudha
+4.Lal Bagh Botanical Garden
+5.Mysore Arts & Crafts Centre
+
+Day 2 - Bangalore to Mysore
+1.Mysore Palace
+2.Brindavan Gardens
+3.Chamundi Hills
+4.St. Philomena Church
+5.Mysore Zoo
+
+Day 3 - Mysore to Ooty
+1.Ooty Lake
+
+Day 4 - Ooty
+1.Sim's Park
+2.Lamb's Rock
+3.Dolphin's Nose
+4.Tea Museum
+5.Coonoor
+6.Doddabetta Peak
+7.Ooty Botanical Gardens
+
+Day 5 - Ooty to Bangalore
+**************************************************
+**************************************************
+
+Tour name  is:Colourful Rajasthan
+
+Tour id is:2103
+
+Cities to visit are:Jaipur, Jodhpur, Jaisalmer, Udaipur
+
+Number of days of the tour :8
+
+The price per member is:14000
+
+The itinerary is:
+*********************************************************
+
+2103)COLOURFULL RAJASTHAN
+
+Day 1 - Arrival in Jaipur
+
+Day 2 - Sightseeing in Jaipur
+1.Amer Fort
+
+Day 3 - Jaipur to Jodhpur
+Sightseeing in Jaisalmer
+1.Umaid Bhawan Palace
+
+Day 4 - Jodhpur to Jaisalmer
+1.Mehrangarh Fort
+2.Jaswant Thada
+
+Day 5 - Jaisalmer
+Sightseeing in Jaisalmer
+1.Nathdwara
+2.Patwaon ki Haveli
+3.Sam Sand Dunes
+
+Day 6 - Jaisalmer to Udaipur(travel)
+
+Day 7 - Udaipur
+Sightseeing in Udaipur
+1.Saheliyon ki Bari
+2.City Palace
+3.Sajjangarh Palace
+
+Day 8 - Departure from Udaipur
+Breakfast at Hotel in Udaipur
+**************************************************
+**************************************************
+
+Tour name  is:Amazing Goa
+
+Tour id is:2104
+
+Cities to visit are:Panaji, Candolim, Goa Velha
+
+Number of days of the tour :3
+
+The price per member is:10000
+
+The itinerary is:
+*********************************************************
+
+2104)AMAZING GOA
+
+Day 1 - NORTH GOA FORTS & BEACHES
+1.Reis Mogos Fort
+2.Aguada Fort
+3.Calangute Beach
+4.Chapora Fort
+5.Vagator Beach
+
+DAY 2 - DUDHSAGAR FALLS
+
+Day 3 - OLD GOA & TEMPLES
+1.Basilica Of Bom Jesus
+2.Se Cathedral
+3.St. Francis Of Assisi Church
+4.St. Augustine Tower / Church Of St. Augustin
+ 5.Shri Mangueshi Temple / Mangeshi Temple
+**************************************************
+**************************************************
+
+Tour name  is:Unparalleled Kerala
+
+Tour id is:2105
+
+Cities to visit are:Kochi, Munnar, Kumarakor
+
+Number of days of the tour :4
+
+The price per member is:13000
+
+The itinerary is:
+*********************************************************
+
+2105)UNPARRALLED KERELA
+
+DAY 1- Kochi
+Day at Leisure
+
+DAY 2 and 3 - Munnar
+1.Visit Eravikulam National Park
+2.Visit to Tea Museum
+3.Visit to Mattupetty Dam
+ 4.Visit to Eco Point
+5.Visit to Flower Garden
+
+DAY 4 -Kumarakom
+Day at Leisure
+**************************************************
+**************************************************
+
+Tour name  is:Mesmerizing Kedarnath
+
+Tour id is:2106
+
+Cities to visit are:Kedarnath, Badrinath
+
+Number of days of the tour :5
+
+The price per member is:16000
+
+The itinerary is:
+*********************************************************
+
+2106)MESMERIZING KEDARNATH
+
+DAY 1 - Dehradun
+Explore on your own
+
+DAY 2 - Yamunotri
+1.Yamunotri Temple
+2.Shani Temple
+
+DAY 3 - Gangotri
+1.Gangotri Temple
+
+DAY 4 - Kedarnath
+1.Visit Kedarnath Temple
+
+DAY 5 - Badrinath
+1.Visit Badrinath Temple
+**************************************************
+**************************************************
+
+Tour name  is:Offbeat Andaman
+
+Tour id is:2107
+
+Cities to visit are:Port Blair, Mayabundar
+
+Number of days of the tour :8
+
+The price per member is:15000
+
+The itinerary is:
+**********************************************************
+
+2107)OFFBEAT ANDAMAN
+
+DAY 1 - Arrival at Port Blair
+1.Cellular Jail Visit
+
+DAY 2 - Port Blair| Bartang | Rangat | Mayabunder | Diglipur
+1. Jarawa Reserve
+2.Mud Volcano 
+3.Limestone cave 
+4.Aamkunj Beach
+ 5.Brake water
+6.Panchabati Fall
+7.Cutbery beach 
+
+DAY 3 - Mayabunder | Diglipur
+1.Kalipur beach
+2.Mayabunder Islands
+3.Karmatang beach
+
+DAY 4 - Mayabunder | Port Blair
+1.Shopping
+
+DAY 5 - Port Blair to Havelock
+
+DAY 6 - Explore Havelock
+1.Radhanagar Beach 
+2.Water sports.
+
+DAY 7 - Havelock to Port Blair
+1.Elephant Beach 
+
+
+DAY 8 - Check out and Return
+**************************************************
+**************************************************
+
+Tour name  is:Majestic Uttarakhand
+
+Tour id is:2108
+
+Cities to visit are:Dehradun
+
+Number of days of the tour :3
+
+The price per member is:12000
+
+The itinerary is:
+*********************************************************
+
+2108)Majestic Uttarakhand
+
+
+
+Enjoy the tour of Uttarakhand
+
+Book your slot soon
+**************************************************
+**************************************************************************
+Welcome to Admin Page:
+***************************************************************************
+1.Add a tour package
+2.Delete a tour package
+3.Modify a tour package
+4.Display a tour package
+5.View the customers according to their priority in a tour package
+0.Allocate customers finally
+6.Exit
+***************************************************************************
+Enter your choice:
+2
+Enter the tour ID to be deleted
+2108
+Package deleted successfully
+**************************************************************************
+Welcome to Admin Page:
+***************************************************************************
+1.Add a tour package
+2.Delete a tour package
+3.Modify a tour package
+4.Display a tour package
+5.View the customers according to their priority in a tour package
+0.Allocate customers finally
+6.Exit
+***************************************************************************
+Enter your choice:
+4
+Enter the tour id of the tour package to be displayed:
+2108
+Tour ID not found
+**************************************************************************
+Welcome to Admin Page:
+***************************************************************************
+1.Add a tour package
+2.Delete a tour package
+3.Modify a tour package
+4.Display a tour package
+5.View the customers according to their priority in a tour package
+0.Allocate customers finally
+6.Exit
+***************************************************************************
+Enter your choice:
+5
+
+Enter the tour ID of the package whose customers you want to allocate:
+2102
+Customers served in this priority order
+
+Do you want to allot another tour package customers?
+0
+**************************************************************************
+Welcome to Admin Page:
+***************************************************************************
+1.Add a tour package
+2.Delete a tour package
+3.Modify a tour package
+4.Display a tour package
+5.View the customers according to their priority in a tour package
+0.Allocate customers finally
+6.Exit
+***************************************************************************
+Enter your choice:
+6
+
+Exited
+Wrong choice Try again
+Do you wish to try again to login as admin?
+If yes enter y else enter n
+n
+1.Login as a Admin
+2.Login as a Customer
+3.Exit
+2
+**************************************************************************
+Welcome To Customer's Login Page
+**************************************************************************
+As a customer:
+1.Create/Login Account
+2.Exit
+***************************************************************************
+Enter your choice:
+1
+Enter name and password to login as a customer:
+Enter name :
+Mihir Dorkhande
+Enter password:
+hello220
+LOGIN SUCCESSFULL
+*****************************************************************************
+Tour package details are as follows:
+**************************************************
+
+Tour name  is:Magical Manali
+
+Tour id is:2100
+
+Cities to visit are:Manali, Jagatsukh, Bahangan Nullah
+
+Number of days of the tour :6
+
+The price per member is:10000
+
+The itinerary is:
+*********************************************************
+
+2100)MAGICAL MANALI 
+
+Day 1 - Manali – Jagatsukh – Khanul
+Village of Jagatsukh to Bahangan Nullah
+Bahangan Nullah serves as your first day’s campsite. 
+
+Day 2 - Camping Site At Prini
+
+Day 3 - A trek of about five kilometres in The Himalayan Mountain ranges
+
+Day 4 - Adeventure attractions:
+1.Burma Bridge
+2. Commando Net
+
+Day 5 - The Mall Road and head back towards the central hill station of Manali.
+
+Day 6 - Shopping and on-foot exploration of the hill station
+Then Manali – Delhi
+**************************************************
+**************************************************
+
+Tour name  is:Historical Maharashtra
+
+Tour id is:2101
+
+Cities to visit are:Mumbai, Nashik, Aurangabad ,Shirdi
+
+Number of days of the tour :6
+
+The price per member is:9000
+
+The itinerary is:
+*********************************************************
+
+2101)HISTORICAL MAHARASHTRA
+
+Day 1 - Arrival in Mumbai
+On reaching Mumbai, check in at the hotel for the night
+
+Day 2 - Sightseeing in Aurangabad
+Post breakfast,cover Elephanta Island and Elephanta Caves
+
+Day 3 - Nashik Sightseeing
+Cover Panchavati Temple, Kalaram Temple, Bhaktidham and Trimbakeshwar
+
+Day 4 - Arrival to Shirdi
+Visit Sai Baba Mandir today
+
+Day 5 - Visit Ajanta Caves
+Enjoy a visit to the rock cut Ajanta Caves today. 
+
+Day 6 - Shirdi Sightseeing
+Enjoy a visit to the Ellora Caves today.
+**************************************************
+**************************************************
+
+Tour name  is:Amazing Ooty and Mysore with Banglore
+
+Tour id is:2102
+
+Cities to visit are:Bangalore, Mysore, Ooty
+
+Number of days of the tour :5
+
+The price per member is:15000
+
+The itinerary is:
+*********************************************************
+
+2102)AMAZING OOTY & MYSORE WITH BANGLORE
+
+Day 1 - Bangalore
+1.Bull Temple
+2.Commercial Street
+3.Vidhana Soudha
+4.Lal Bagh Botanical Garden
+5.Mysore Arts & Crafts Centre
+
+Day 2 - Bangalore to Mysore
+1.Mysore Palace
+2.Brindavan Gardens
+3.Chamundi Hills
+4.St. Philomena Church
+5.Mysore Zoo
+
+Day 3 - Mysore to Ooty
+1.Ooty Lake
+
+Day 4 - Ooty
+1.Sim's Park
+2.Lamb's Rock
+3.Dolphin's Nose
+4.Tea Museum
+5.Coonoor
+6.Doddabetta Peak
+7.Ooty Botanical Gardens
+
+Day 5 - Ooty to Bangalore
+**************************************************
+**************************************************
+
+Tour name  is:Colourful Rajasthan
+
+Tour id is:2103
+
+Cities to visit are:Jaipur, Jodhpur, Jaisalmer, Udaipur
+
+Number of days of the tour :8
+
+The price per member is:14000
+
+The itinerary is:
+*********************************************************
+
+2103)COLOURFULL RAJASTHAN
+
+Day 1 - Arrival in Jaipur
+
+Day 2 - Sightseeing in Jaipur
+1.Amer Fort
+
+Day 3 - Jaipur to Jodhpur
+Sightseeing in Jaisalmer
+1.Umaid Bhawan Palace
+
+Day 4 - Jodhpur to Jaisalmer
+1.Mehrangarh Fort
+2.Jaswant Thada
+
+Day 5 - Jaisalmer
+Sightseeing in Jaisalmer
+1.Nathdwara
+2.Patwaon ki Haveli
+3.Sam Sand Dunes
+
+Day 6 - Jaisalmer to Udaipur(travel)
+
+Day 7 - Udaipur
+Sightseeing in Udaipur
+1.Saheliyon ki Bari
+2.City Palace
+3.Sajjangarh Palace
+
+Day 8 - Departure from Udaipur
+Breakfast at Hotel in Udaipur
+**************************************************
+**************************************************
+
+Tour name  is:Amazing Goa
+
+Tour id is:2104
+
+Cities to visit are:Panaji, Candolim, Goa Velha
+
+Number of days of the tour :3
+
+The price per member is:10000
+
+The itinerary is:
+*********************************************************
+
+2104)AMAZING GOA
+
+Day 1 - NORTH GOA FORTS & BEACHES
+1.Reis Mogos Fort
+2.Aguada Fort
+3.Calangute Beach
+4.Chapora Fort
+5.Vagator Beach
+
+DAY 2 - DUDHSAGAR FALLS
+
+Day 3 - OLD GOA & TEMPLES
+1.Basilica Of Bom Jesus
+2.Se Cathedral
+3.St. Francis Of Assisi Church
+4.St. Augustine Tower / Church Of St. Augustin
+ 5.Shri Mangueshi Temple / Mangeshi Temple
+**************************************************
+**************************************************
+
+Tour name  is:Unparalleled Kerala
+
+Tour id is:2105
+
+Cities to visit are:Kochi, Munnar, Kumarakor
+
+Number of days of the tour :4
+
+The price per member is:13000
+
+The itinerary is:
+*********************************************************
+
+2105)UNPARRALLED KERELA
+
+DAY 1- Kochi
+Day at Leisure
+
+DAY 2 and 3 - Munnar
+1.Visit Eravikulam National Park
+2.Visit to Tea Museum
+3.Visit to Mattupetty Dam
+ 4.Visit to Eco Point
+5.Visit to Flower Garden
+
+DAY 4 -Kumarakom
+Day at Leisure
+**************************************************
+**************************************************
+
+Tour name  is:Mesmerizing Kedarnath
+
+Tour id is:2106
+
+Cities to visit are:Kedarnath, Badrinath
+
+Number of days of the tour :5
+
+The price per member is:16000
+
+The itinerary is:
+*********************************************************
+
+2106)MESMERIZING KEDARNATH
+
+DAY 1 - Dehradun
+Explore on your own
+
+DAY 2 - Yamunotri
+1.Yamunotri Temple
+2.Shani Temple
+
+DAY 3 - Gangotri
+1.Gangotri Temple
+
+DAY 4 - Kedarnath
+1.Visit Kedarnath Temple
+
+DAY 5 - Badrinath
+1.Visit Badrinath Temple
+**************************************************
+**************************************************
+
+Tour name  is:Offbeat Andaman
+
+Tour id is:2107
+
+Cities to visit are:Port Blair, Mayabundar
+
+Number of days of the tour :8
+
+The price per member is:15000
+
+The itinerary is:
+**********************************************************
+
+2107)OFFBEAT ANDAMAN
+
+DAY 1 - Arrival at Port Blair
+1.Cellular Jail Visit
+
+DAY 2 - Port Blair| Bartang | Rangat | Mayabunder | Diglipur
+1. Jarawa Reserve
+2.Mud Volcano 
+3.Limestone cave 
+4.Aamkunj Beach
+ 5.Brake water
+6.Panchabati Fall
+7.Cutbery beach 
+
+DAY 3 - Mayabunder | Diglipur
+1.Kalipur beach
+2.Mayabunder Islands
+3.Karmatang beach
+
+DAY 4 - Mayabunder | Port Blair
+1.Shopping
+
+DAY 5 - Port Blair to Havelock
+
+DAY 6 - Explore Havelock
+1.Radhanagar Beach 
+2.Water sports.
+
+DAY 7 - Havelock to Port Blair
+1.Elephant Beach 
+
+
+DAY 8 - Check out and Return
+**************************************************
+**********************************************************************
+Customer's Menu:
+
+1.Display a tour package
+
+2.Grab a slot in any tour?
+
+4. Exit:
+**********************************************************************
+
+Enter choice:
+2
+Enter your name :
+2103
+wrong name entered
+Enter your name :
+Mihir Dorkhande
+P
+Enter your email ID :
+mihi
+Wrong email id entered try again
+Enter your email ID :
+mihir@
+Wrong email id entered try again
+Enter your email ID :
+mihir.com
+Wrong email id entered try again
+Enter your email ID :
+mihir@gmail.com
+Enter your phone number :
+886
+wrong contact number try again
+Enter your phone number :
+7898789098
+Enter no.of members registering :**(MIN 1 and MAX 25 allowed
+89
+Try again! number of members can be between 1 to 25 only
+Enter no.of members registering :**(MIN 1 and MAX 25 allowed
+20
+Enter 'V' for veg and 'N' for non-veg :
+b
+Incorrect information entered try again
+Enter 'V' for veg and 'N' for non-veg :
+v
+Enter the tourid of the package you wish to select:
+2103
+
+ Tour id selected is valid
+
+Confirm tour ID to book a tour
+2103
+0 stands for available room and 1 for occupied room
+Number of rooms in floor:0
+->
+0  0  0  1  0  1  
+Number of rooms in floor:1
+->
+1  0  0  0  1  0  
+Number of rooms in floor:2
+->
+0  0  1  0  1  0  
+Number of rooms in floor:3
+->
+1  0  0  0  0  0  
+Number of rooms in floor:4
+->
+1  0  0  0  0  0  
+Number of rooms in floor:5
+->
+1  0  0  0  0  0  
+
+Enter the number of rooms you want to allocate:
+5
+
+Enter the floor number:
+5
+Enter the room number:
+1
+
+Room succesfully allocated
+0 stands for available room and 1 for occupied room
+Number of rooms in floor:0
+->
+0  0  0  1  0  1  
+Number of rooms in floor:1
+->
+1  0  0  0  1  0  
+Number of rooms in floor:2
+->
+0  0  1  0  1  0  
+Number of rooms in floor:3
+->
+1  0  0  0  0  0  
+Number of rooms in floor:4
+->
+1  0  0  0  0  0  
+Number of rooms in floor:5
+->
+1  1  0  0  0  0  
+
+Enter the floor number:
+5
+Enter the room number:
+2
+
+Room succesfully allocated
+0 stands for available room and 1 for occupied room
+Number of rooms in floor:0
+->
+0  0  0  1  0  1  
+Number of rooms in floor:1
+->
+1  0  0  0  1  0  
+Number of rooms in floor:2
+->
+0  0  1  0  1  0  
+Number of rooms in floor:3
+->
+1  0  0  0  0  0  
+Number of rooms in floor:4
+->
+1  0  0  0  0  0  
+Number of rooms in floor:5
+->
+1  1  1  0  0  0  
+
+Enter the floor number:
+5
+Enter the room number:
+3
+
+Room succesfully allocated
+0 stands for available room and 1 for occupied room
+Number of rooms in floor:0
+->
+0  0  0  1  0  1  
+Number of rooms in floor:1
+->
+1  0  0  0  1  0  
+Number of rooms in floor:2
+->
+0  0  1  0  1  0  
+Number of rooms in floor:3
+->
+1  0  0  0  0  0  
+Number of rooms in floor:4
+->
+1  0  0  0  0  0  
+Number of rooms in floor:5
+->
+1  1  1  1  0  0  
+
+Enter the floor number:
+5
+Enter the room number:
+4
+
+Room succesfully allocated
+0 stands for available room and 1 for occupied room
+Number of rooms in floor:0
+->
+0  0  0  1  0  1  
+Number of rooms in floor:1
+->
+1  0  0  0  1  0  
+Number of rooms in floor:2
+->
+0  0  1  0  1  0  
+Number of rooms in floor:3
+->
+1  0  0  0  0  0  
+Number of rooms in floor:4
+->
+1  0  0  0  0  0  
+Number of rooms in floor:5
+->
+1  1  1  1  1  0  
+
+Enter the floor number:
+5
+Enter the room number:
+5
+
+Room succesfully allocated
+0 stands for available room and 1 for occupied room
+Number of rooms in floor:0
+->
+0  0  0  1  0  1  
+Number of rooms in floor:1
+->
+1  0  0  0  1  0  
+Number of rooms in floor:2
+->
+0  0  1  0  1  0  
+Number of rooms in floor:3
+->
+1  0  0  0  0  0  
+Number of rooms in floor:4
+->
+1  0  0  0  0  0  
+Number of rooms in floor:5
+->
+1  1  1  1  1  1  
+You are successfully added to priority queue of Tour:2103
+The name is : Mihir Dorkhande
+The email ID is : mihir@gmail.com
+The phone no. is : 7898789098
+Your membership is : P
+Your food option is : V
+Total number of members registered : 20
+
+Room allocated is:1 on floor:5
+
+Room allocated is:2 on floor:5
+
+Room allocated is:3 on floor:5
+
+Room allocated is:4 on floor:5
+
+Room allocated is:5 on floor:5
+
+Total room charges for one day:5000.0
+
+Total room charges for all days:40000.0
+**********************************************************************
+Customer's Menu:
+
+1.Display a tour package
+
+2.Grab a slot in any tour?
+
+4. Exit:
+**********************************************************************
+
+Enter choice:
+1
+Enter the tour id of the tour package to be displayed:
+2103
+***************************************************************************
+
+The tour details are as follows 
+
+The tourid of the package is 2103
+The name of the tour package is Colourful Rajasthan
+The cities to visit of the package are Jaipur, Jodhpur, Jaisalmer, Udaipur
+The number of days of the package is 8
+The itinerary of the package is 
+*********************************************************
+
+2103)COLOURFULL RAJASTHAN
+
+Day 1 - Arrival in Jaipur
+
+Day 2 - Sightseeing in Jaipur
+1.Amer Fort
+
+Day 3 - Jaipur to Jodhpur
+Sightseeing in Jaisalmer
+1.Umaid Bhawan Palace
+
+Day 4 - Jodhpur to Jaisalmer
+1.Mehrangarh Fort
+2.Jaswant Thada
+
+Day 5 - Jaisalmer
+Sightseeing in Jaisalmer
+1.Nathdwara
+2.Patwaon ki Haveli
+3.Sam Sand Dunes
+
+Day 6 - Jaisalmer to Udaipur(travel)
+
+Day 7 - Udaipur
+Sightseeing in Udaipur
+1.Saheliyon ki Bari
+2.City Palace
+3.Sajjangarh Palace
+
+Day 8 - Departure from Udaipur
+Breakfast at Hotel in Udaipur
+***************************************************************************
+**********************************************************************
+Customer's Menu:
+
+1.Display a tour package
+
+2.Grab a slot in any tour?
+
+4. Exit:
+**********************************************************************
+
+Enter choice:
+4
+**************************************************************************
+Welcome To Customer's Login Page
+**************************************************************************
+As a customer:
+1.Create/Login Account
+2.Exit
+***************************************************************************
+Enter your choice:
+1
+Enter name and password to login as a customer:
+Enter name :
+Sanika
+Enter password:
+heyya
+Account not found
+Try again
+Do you want to signup? enter 2 for yes and 0 for no
+2
+You can create your Customer account here
+Enter your name:
+Sanika
+Create password for your account:
+heyya
+Account Successfully created!!
+Now you can enter the tour portal as a customer
+*****************************************************************************
+Tour package details are as follows:
+**************************************************
+
+Tour name  is:Magical Manali
+
+Tour id is:2100
+
+Cities to visit are:Manali, Jagatsukh, Bahangan Nullah
+
+Number of days of the tour :6
+
+The price per member is:10000
+
+The itinerary is:
+*********************************************************
+
+2100)MAGICAL MANALI 
+
+Day 1 - Manali – Jagatsukh – Khanul
+Village of Jagatsukh to Bahangan Nullah
+Bahangan Nullah serves as your first day’s campsite. 
+
+Day 2 - Camping Site At Prini
+
+Day 3 - A trek of about five kilometres in The Himalayan Mountain ranges
+
+Day 4 - Adeventure attractions:
+1.Burma Bridge
+2. Commando Net
+
+Day 5 - The Mall Road and head back towards the central hill station of Manali.
+
+Day 6 - Shopping and on-foot exploration of the hill station
+Then Manali – Delhi
+**************************************************
+**************************************************
+
+Tour name  is:Historical Maharashtra
+
+Tour id is:2101
+
+Cities to visit are:Mumbai, Nashik, Aurangabad ,Shirdi
+
+Number of days of the tour :6
+
+The price per member is:9000
+
+The itinerary is:
+*********************************************************
+
+2101)HISTORICAL MAHARASHTRA
+
+Day 1 - Arrival in Mumbai
+On reaching Mumbai, check in at the hotel for the night
+
+Day 2 - Sightseeing in Aurangabad
+Post breakfast,cover Elephanta Island and Elephanta Caves
+
+Day 3 - Nashik Sightseeing
+Cover Panchavati Temple, Kalaram Temple, Bhaktidham and Trimbakeshwar
+
+Day 4 - Arrival to Shirdi
+Visit Sai Baba Mandir today
+
+Day 5 - Visit Ajanta Caves
+Enjoy a visit to the rock cut Ajanta Caves today. 
+
+Day 6 - Shirdi Sightseeing
+Enjoy a visit to the Ellora Caves today.
+**************************************************
+**************************************************
+
+Tour name  is:Amazing Ooty and Mysore with Banglore
+
+Tour id is:2102
+
+Cities to visit are:Bangalore, Mysore, Ooty
+
+Number of days of the tour :5
+
+The price per member is:15000
+
+The itinerary is:
+*********************************************************
+
+2102)AMAZING OOTY & MYSORE WITH BANGLORE
+
+Day 1 - Bangalore
+1.Bull Temple
+2.Commercial Street
+3.Vidhana Soudha
+4.Lal Bagh Botanical Garden
+5.Mysore Arts & Crafts Centre
+
+Day 2 - Bangalore to Mysore
+1.Mysore Palace
+2.Brindavan Gardens
+3.Chamundi Hills
+4.St. Philomena Church
+5.Mysore Zoo
+
+Day 3 - Mysore to Ooty
+1.Ooty Lake
+
+Day 4 - Ooty
+1.Sim's Park
+2.Lamb's Rock
+3.Dolphin's Nose
+4.Tea Museum
+5.Coonoor
+6.Doddabetta Peak
+7.Ooty Botanical Gardens
+
+Day 5 - Ooty to Bangalore
+**************************************************
+**************************************************
+
+Tour name  is:Colourful Rajasthan
+
+Tour id is:2103
+
+Cities to visit are:Jaipur, Jodhpur, Jaisalmer, Udaipur
+
+Number of days of the tour :8
+
+The price per member is:14000
+
+The itinerary is:
+*********************************************************
+
+2103)COLOURFULL RAJASTHAN
+
+Day 1 - Arrival in Jaipur
+
+Day 2 - Sightseeing in Jaipur
+1.Amer Fort
+
+Day 3 - Jaipur to Jodhpur
+Sightseeing in Jaisalmer
+1.Umaid Bhawan Palace
+
+Day 4 - Jodhpur to Jaisalmer
+1.Mehrangarh Fort
+2.Jaswant Thada
+
+Day 5 - Jaisalmer
+Sightseeing in Jaisalmer
+1.Nathdwara
+2.Patwaon ki Haveli
+3.Sam Sand Dunes
+
+Day 6 - Jaisalmer to Udaipur(travel)
+
+Day 7 - Udaipur
+Sightseeing in Udaipur
+1.Saheliyon ki Bari
+2.City Palace
+3.Sajjangarh Palace
+
+Day 8 - Departure from Udaipur
+Breakfast at Hotel in Udaipur
+**************************************************
+**************************************************
+
+Tour name  is:Amazing Goa
+
+Tour id is:2104
+
+Cities to visit are:Panaji, Candolim, Goa Velha
+
+Number of days of the tour :3
+
+The price per member is:10000
+
+The itinerary is:
+*********************************************************
+
+2104)AMAZING GOA
+
+Day 1 - NORTH GOA FORTS & BEACHES
+1.Reis Mogos Fort
+2.Aguada Fort
+3.Calangute Beach
+4.Chapora Fort
+5.Vagator Beach
+
+DAY 2 - DUDHSAGAR FALLS
+
+Day 3 - OLD GOA & TEMPLES
+1.Basilica Of Bom Jesus
+2.Se Cathedral
+3.St. Francis Of Assisi Church
+4.St. Augustine Tower / Church Of St. Augustin
+ 5.Shri Mangueshi Temple / Mangeshi Temple
+**************************************************
+**************************************************
+
+Tour name  is:Unparalleled Kerala
+
+Tour id is:2105
+
+Cities to visit are:Kochi, Munnar, Kumarakor
+
+Number of days of the tour :4
+
+The price per member is:13000
+
+The itinerary is:
+*********************************************************
+
+2105)UNPARRALLED KERELA
+
+DAY 1- Kochi
+Day at Leisure
+
+DAY 2 and 3 - Munnar
+1.Visit Eravikulam National Park
+2.Visit to Tea Museum
+3.Visit to Mattupetty Dam
+ 4.Visit to Eco Point
+5.Visit to Flower Garden
+
+DAY 4 -Kumarakom
+Day at Leisure
+**************************************************
+**************************************************
+
+Tour name  is:Mesmerizing Kedarnath
+
+Tour id is:2106
+
+Cities to visit are:Kedarnath, Badrinath
+
+Number of days of the tour :5
+
+The price per member is:16000
+
+The itinerary is:
+*********************************************************
+
+2106)MESMERIZING KEDARNATH
+
+DAY 1 - Dehradun
+Explore on your own
+
+DAY 2 - Yamunotri
+1.Yamunotri Temple
+2.Shani Temple
+
+DAY 3 - Gangotri
+1.Gangotri Temple
+
+DAY 4 - Kedarnath
+1.Visit Kedarnath Temple
+
+DAY 5 - Badrinath
+1.Visit Badrinath Temple
+**************************************************
+**************************************************
+
+Tour name  is:Offbeat Andaman
+
+Tour id is:2107
+
+Cities to visit are:Port Blair, Mayabundar
+
+Number of days of the tour :8
+
+The price per member is:15000
+
+The itinerary is:
+**********************************************************
+
+2107)OFFBEAT ANDAMAN
+
+DAY 1 - Arrival at Port Blair
+1.Cellular Jail Visit
+
+DAY 2 - Port Blair| Bartang | Rangat | Mayabunder | Diglipur
+1. Jarawa Reserve
+2.Mud Volcano 
+3.Limestone cave 
+4.Aamkunj Beach
+ 5.Brake water
+6.Panchabati Fall
+7.Cutbery beach 
+
+DAY 3 - Mayabunder | Diglipur
+1.Kalipur beach
+2.Mayabunder Islands
+3.Karmatang beach
+
+DAY 4 - Mayabunder | Port Blair
+1.Shopping
+
+DAY 5 - Port Blair to Havelock
+
+DAY 6 - Explore Havelock
+1.Radhanagar Beach 
+2.Water sports.
+
+DAY 7 - Havelock to Port Blair
+1.Elephant Beach 
+
+
+DAY 8 - Check out and Return
+**************************************************
+**********************************************************************
+Customer's Menu:
+
+1.Display a tour package
+
+2.Grab a slot in any tour?
+
+3.View the customers according to their priority in my tour package
+
+4. Exit:
+**********************************************************************
+
+Enter choice:
+2
+Enter your name :
+Sanika
+N
+Enter your email ID :
+sanu@gmail.com
+Enter your phone number :
+7867567890
+Enter no.of members registering :**(MIN 1 and MAX 25 allowed
+5
+Enter 'V' for veg and 'N' for non-veg :
+v
+Enter the tourid of the package you wish to select:
+2103
+
+ Tour id selected is valid
+
+Confirm tour ID to book a tour
+2103
+0 stands for available room and 1 for occupied room
+Number of rooms in floor:0
+->
+0  0  0  1  0  1  
+Number of rooms in floor:1
+->
+1  0  0  0  1  0  
+Number of rooms in floor:2
+->
+0  0  1  0  1  0  
+Number of rooms in floor:3
+->
+1  0  0  0  0  0  
+Number of rooms in floor:4
+->
+1  0  0  0  0  0  
+Number of rooms in floor:5
+->
+1  1  1  1  1  1  
+
+Enter the number of rooms you want to allocate:
+1
+
+Enter the floor number:
+5
+Enter the room number:
+1
+Could not allocate room
+0 stands for available room and 1 for occupied room
+Number of rooms in floor:0
+->
+0  0  0  1  0  1  
+Number of rooms in floor:1
+->
+1  0  0  0  1  0  
+Number of rooms in floor:2
+->
+0  0  1  0  1  0  
+Number of rooms in floor:3
+->
+1  0  0  0  0  0  
+Number of rooms in floor:4
+->
+1  0  0  0  0  0  
+Number of rooms in floor:5
+->
+1  1  1  1  1  1  
+You are successfully added to priority queue of Tour:2103
+The name is : Sanika
+The email ID is : sanu@gmail.com
+The phone no. is : 7867567890
+Your membership is : N
+Your food option is : V
+Total number of members registered : 5
+
+Total room charges for one day:0.0
+
+Total room charges for all days:0.0
+**********************************************************************
+Customer's Menu:
+
+1.Display a tour package
+
+2.Grab a slot in any tour?
+
+4. Exit:
+**********************************************************************
+
+Enter choice:
+4
+**************************************************************************
+Welcome To Customer's Login Page
+**************************************************************************
+As a customer:
+1.Create/Login Account
+2.Exit
+***************************************************************************
+Enter your choice:
+1
+Enter name and password to login as a customer:
+Enter name :
+Anushka Raman
+Enter password:
+hello44
+Account not found
+Try again
+Do you want to signup? enter 2 for yes and 0 for no
+0
+Enter name and password to login as a customer:
+Enter name :
+Anushka Raman
+Enter password:
+hello440
+LOGIN SUCCESSFULL
+*****************************************************************************
+Tour package details are as follows:
+**************************************************
+
+Tour name  is:Magical Manali
+
+Tour id is:2100
+
+Cities to visit are:Manali, Jagatsukh, Bahangan Nullah
+
+Number of days of the tour :6
+
+The price per member is:10000
+
+The itinerary is:
+*********************************************************
+
+2100)MAGICAL MANALI 
+
+Day 1 - Manali – Jagatsukh – Khanul
+Village of Jagatsukh to Bahangan Nullah
+Bahangan Nullah serves as your first day’s campsite. 
+
+Day 2 - Camping Site At Prini
+
+Day 3 - A trek of about five kilometres in The Himalayan Mountain ranges
+
+Day 4 - Adeventure attractions:
+1.Burma Bridge
+2. Commando Net
+
+Day 5 - The Mall Road and head back towards the central hill station of Manali.
+
+Day 6 - Shopping and on-foot exploration of the hill station
+Then Manali – Delhi
+**************************************************
+**************************************************
+
+Tour name  is:Historical Maharashtra
+
+Tour id is:2101
+
+Cities to visit are:Mumbai, Nashik, Aurangabad ,Shirdi
+
+Number of days of the tour :6
+
+The price per member is:9000
+
+The itinerary is:
+*********************************************************
+
+2101)HISTORICAL MAHARASHTRA
+
+Day 1 - Arrival in Mumbai
+On reaching Mumbai, check in at the hotel for the night
+
+Day 2 - Sightseeing in Aurangabad
+Post breakfast,cover Elephanta Island and Elephanta Caves
+
+Day 3 - Nashik Sightseeing
+Cover Panchavati Temple, Kalaram Temple, Bhaktidham and Trimbakeshwar
+
+Day 4 - Arrival to Shirdi
+Visit Sai Baba Mandir today
+
+Day 5 - Visit Ajanta Caves
+Enjoy a visit to the rock cut Ajanta Caves today. 
+
+Day 6 - Shirdi Sightseeing
+Enjoy a visit to the Ellora Caves today.
+**************************************************
+**************************************************
+
+Tour name  is:Amazing Ooty and Mysore with Banglore
+
+Tour id is:2102
+
+Cities to visit are:Bangalore, Mysore, Ooty
+
+Number of days of the tour :5
+
+The price per member is:15000
+
+The itinerary is:
+*********************************************************
+
+2102)AMAZING OOTY & MYSORE WITH BANGLORE
+
+Day 1 - Bangalore
+1.Bull Temple
+2.Commercial Street
+3.Vidhana Soudha
+4.Lal Bagh Botanical Garden
+5.Mysore Arts & Crafts Centre
+
+Day 2 - Bangalore to Mysore
+1.Mysore Palace
+2.Brindavan Gardens
+3.Chamundi Hills
+4.St. Philomena Church
+5.Mysore Zoo
+
+Day 3 - Mysore to Ooty
+1.Ooty Lake
+
+Day 4 - Ooty
+1.Sim's Park
+2.Lamb's Rock
+3.Dolphin's Nose
+4.Tea Museum
+5.Coonoor
+6.Doddabetta Peak
+7.Ooty Botanical Gardens
+
+Day 5 - Ooty to Bangalore
+**************************************************
+**************************************************
+
+Tour name  is:Colourful Rajasthan
+
+Tour id is:2103
+
+Cities to visit are:Jaipur, Jodhpur, Jaisalmer, Udaipur
+
+Number of days of the tour :8
+
+The price per member is:14000
+
+The itinerary is:
+*********************************************************
+
+2103)COLOURFULL RAJASTHAN
+
+Day 1 - Arrival in Jaipur
+
+Day 2 - Sightseeing in Jaipur
+1.Amer Fort
+
+Day 3 - Jaipur to Jodhpur
+Sightseeing in Jaisalmer
+1.Umaid Bhawan Palace
+
+Day 4 - Jodhpur to Jaisalmer
+1.Mehrangarh Fort
+2.Jaswant Thada
+
+Day 5 - Jaisalmer
+Sightseeing in Jaisalmer
+1.Nathdwara
+2.Patwaon ki Haveli
+3.Sam Sand Dunes
+
+Day 6 - Jaisalmer to Udaipur(travel)
+
+Day 7 - Udaipur
+Sightseeing in Udaipur
+1.Saheliyon ki Bari
+2.City Palace
+3.Sajjangarh Palace
+
+Day 8 - Departure from Udaipur
+Breakfast at Hotel in Udaipur
+**************************************************
+**************************************************
+
+Tour name  is:Amazing Goa
+
+Tour id is:2104
+
+Cities to visit are:Panaji, Candolim, Goa Velha
+
+Number of days of the tour :3
+
+The price per member is:10000
+
+The itinerary is:
+*********************************************************
+
+2104)AMAZING GOA
+
+Day 1 - NORTH GOA FORTS & BEACHES
+1.Reis Mogos Fort
+2.Aguada Fort
+3.Calangute Beach
+4.Chapora Fort
+5.Vagator Beach
+
+DAY 2 - DUDHSAGAR FALLS
+
+Day 3 - OLD GOA & TEMPLES
+1.Basilica Of Bom Jesus
+2.Se Cathedral
+3.St. Francis Of Assisi Church
+4.St. Augustine Tower / Church Of St. Augustin
+ 5.Shri Mangueshi Temple / Mangeshi Temple
+**************************************************
+**************************************************
+
+Tour name  is:Unparalleled Kerala
+
+Tour id is:2105
+
+Cities to visit are:Kochi, Munnar, Kumarakor
+
+Number of days of the tour :4
+
+The price per member is:13000
+
+The itinerary is:
+*********************************************************
+
+2105)UNPARRALLED KERELA
+
+DAY 1- Kochi
+Day at Leisure
+
+DAY 2 and 3 - Munnar
+1.Visit Eravikulam National Park
+2.Visit to Tea Museum
+3.Visit to Mattupetty Dam
+ 4.Visit to Eco Point
+5.Visit to Flower Garden
+
+DAY 4 -Kumarakom
+Day at Leisure
+**************************************************
+**************************************************
+
+Tour name  is:Mesmerizing Kedarnath
+
+Tour id is:2106
+
+Cities to visit are:Kedarnath, Badrinath
+
+Number of days of the tour :5
+
+The price per member is:16000
+
+The itinerary is:
+*********************************************************
+
+2106)MESMERIZING KEDARNATH
+
+DAY 1 - Dehradun
+Explore on your own
+
+DAY 2 - Yamunotri
+1.Yamunotri Temple
+2.Shani Temple
+
+DAY 3 - Gangotri
+1.Gangotri Temple
+
+DAY 4 - Kedarnath
+1.Visit Kedarnath Temple
+
+DAY 5 - Badrinath
+1.Visit Badrinath Temple
+**************************************************
+**************************************************
+
+Tour name  is:Offbeat Andaman
+
+Tour id is:2107
+
+Cities to visit are:Port Blair, Mayabundar
+
+Number of days of the tour :8
+
+The price per member is:15000
+
+The itinerary is:
+**********************************************************
+
+2107)OFFBEAT ANDAMAN
+
+DAY 1 - Arrival at Port Blair
+1.Cellular Jail Visit
+
+DAY 2 - Port Blair| Bartang | Rangat | Mayabunder | Diglipur
+1. Jarawa Reserve
+2.Mud Volcano 
+3.Limestone cave 
+4.Aamkunj Beach
+ 5.Brake water
+6.Panchabati Fall
+7.Cutbery beach 
+
+DAY 3 - Mayabunder | Diglipur
+1.Kalipur beach
+2.Mayabunder Islands
+3.Karmatang beach
+
+DAY 4 - Mayabunder | Port Blair
+1.Shopping
+
+DAY 5 - Port Blair to Havelock
+
+DAY 6 - Explore Havelock
+1.Radhanagar Beach 
+2.Water sports.
+
+DAY 7 - Havelock to Port Blair
+1.Elephant Beach 
+
+
+DAY 8 - Check out and Return
+**************************************************
+**********************************************************************
+Customer's Menu:
+
+1.Display a tour package
+
+2.Grab a slot in any tour?
+
+4. Exit:
+**********************************************************************
+
+Enter choice:
+2
+Enter your name :
+Anushka Raman
+G
+Enter your email ID :
+anu@gmail.com
+Enter your phone number :
+7864321234
+Enter no.of members registering :**(MIN 1 and MAX 25 allowed
+19
+Enter 'V' for veg and 'N' for non-veg :
+n
+Enter the tourid of the package you wish to select:
+2103
+
+ Tour id selected is valid
+
+Confirm tour ID to book a tour
+2103
+0 stands for available room and 1 for occupied room
+Number of rooms in floor:0
+->
+0  0  0  1  0  1  
+Number of rooms in floor:1
+->
+1  0  0  0  1  0  
+Number of rooms in floor:2
+->
+0  0  1  0  1  0  
+Number of rooms in floor:3
+->
+1  0  0  0  0  0  
+Number of rooms in floor:4
+->
+1  0  0  0  0  0  
+Number of rooms in floor:5
+->
+1  1  1  1  1  1  
+
+Enter the number of rooms you want to allocate:
+1
+
+Enter the floor number:
+4
+Enter the room number:
+1
+
+Room succesfully allocated
+0 stands for available room and 1 for occupied room
+Number of rooms in floor:0
+->
+0  0  0  1  0  1  
+Number of rooms in floor:1
+->
+1  0  0  0  1  0  
+Number of rooms in floor:2
+->
+0  0  1  0  1  0  
+Number of rooms in floor:3
+->
+1  0  0  0  0  0  
+Number of rooms in floor:4
+->
+1  1  0  0  0  0  
+Number of rooms in floor:5
+->
+1  1  1  1  1  1  
+You are successfully added to priority queue of Tour:2103
+The name is : Anushka Raman
+The email ID is : anu@gmail.com
+The phone no. is : 7864321234
+Your membership is : G
+Your food option is : N
+Total number of members registered : 19
+
+Room allocated is:1 on floor:4
+
+Total room charges for one day:1000.0
+
+Total room charges for all days:8000.0
+**********************************************************************
+Customer's Menu:
+
+1.Display a tour package
+
+2.Grab a slot in any tour?
+
+4. Exit:
+**********************************************************************
+
+Enter choice:
+4
+**************************************************************************
+Welcome To Customer's Login Page
+**************************************************************************
+As a customer:
+1.Create/Login Account
+2.Exit
+***************************************************************************
+Enter your choice:
+1
+Enter name and password to login as a customer:
+Enter name :
+Shruti Deshpande
+Enter password:
+hello110
+LOGIN SUCCESSFULL
+*****************************************************************************
+Tour package details are as follows:
+**************************************************
+
+Tour name  is:Magical Manali
+
+Tour id is:2100
+
+Cities to visit are:Manali, Jagatsukh, Bahangan Nullah
+
+Number of days of the tour :6
+
+The price per member is:10000
+
+The itinerary is:
+*********************************************************
+
+2100)MAGICAL MANALI 
+
+Day 1 - Manali – Jagatsukh – Khanul
+Village of Jagatsukh to Bahangan Nullah
+Bahangan Nullah serves as your first day’s campsite. 
+
+Day 2 - Camping Site At Prini
+
+Day 3 - A trek of about five kilometres in The Himalayan Mountain ranges
+
+Day 4 - Adeventure attractions:
+1.Burma Bridge
+2. Commando Net
+
+Day 5 - The Mall Road and head back towards the central hill station of Manali.
+
+Day 6 - Shopping and on-foot exploration of the hill station
+Then Manali – Delhi
+**************************************************
+**************************************************
+
+Tour name  is:Historical Maharashtra
+
+Tour id is:2101
+
+Cities to visit are:Mumbai, Nashik, Aurangabad ,Shirdi
+
+Number of days of the tour :6
+
+The price per member is:9000
+
+The itinerary is:
+*********************************************************
+
+2101)HISTORICAL MAHARASHTRA
+
+Day 1 - Arrival in Mumbai
+On reaching Mumbai, check in at the hotel for the night
+
+Day 2 - Sightseeing in Aurangabad
+Post breakfast,cover Elephanta Island and Elephanta Caves
+
+Day 3 - Nashik Sightseeing
+Cover Panchavati Temple, Kalaram Temple, Bhaktidham and Trimbakeshwar
+
+Day 4 - Arrival to Shirdi
+Visit Sai Baba Mandir today
+
+Day 5 - Visit Ajanta Caves
+Enjoy a visit to the rock cut Ajanta Caves today. 
+
+Day 6 - Shirdi Sightseeing
+Enjoy a visit to the Ellora Caves today.
+**************************************************
+**************************************************
+
+Tour name  is:Amazing Ooty and Mysore with Banglore
+
+Tour id is:2102
+
+Cities to visit are:Bangalore, Mysore, Ooty
+
+Number of days of the tour :5
+
+The price per member is:15000
+
+The itinerary is:
+*********************************************************
+
+2102)AMAZING OOTY & MYSORE WITH BANGLORE
+
+Day 1 - Bangalore
+1.Bull Temple
+2.Commercial Street
+3.Vidhana Soudha
+4.Lal Bagh Botanical Garden
+5.Mysore Arts & Crafts Centre
+
+Day 2 - Bangalore to Mysore
+1.Mysore Palace
+2.Brindavan Gardens
+3.Chamundi Hills
+4.St. Philomena Church
+5.Mysore Zoo
+
+Day 3 - Mysore to Ooty
+1.Ooty Lake
+
+Day 4 - Ooty
+1.Sim's Park
+2.Lamb's Rock
+3.Dolphin's Nose
+4.Tea Museum
+5.Coonoor
+6.Doddabetta Peak
+7.Ooty Botanical Gardens
+
+Day 5 - Ooty to Bangalore
+**************************************************
+**************************************************
+
+Tour name  is:Colourful Rajasthan
+
+Tour id is:2103
+
+Cities to visit are:Jaipur, Jodhpur, Jaisalmer, Udaipur
+
+Number of days of the tour :8
+
+The price per member is:14000
+
+The itinerary is:
+*********************************************************
+
+2103)COLOURFULL RAJASTHAN
+
+Day 1 - Arrival in Jaipur
+
+Day 2 - Sightseeing in Jaipur
+1.Amer Fort
+
+Day 3 - Jaipur to Jodhpur
+Sightseeing in Jaisalmer
+1.Umaid Bhawan Palace
+
+Day 4 - Jodhpur to Jaisalmer
+1.Mehrangarh Fort
+2.Jaswant Thada
+
+Day 5 - Jaisalmer
+Sightseeing in Jaisalmer
+1.Nathdwara
+2.Patwaon ki Haveli
+3.Sam Sand Dunes
+
+Day 6 - Jaisalmer to Udaipur(travel)
+
+Day 7 - Udaipur
+Sightseeing in Udaipur
+1.Saheliyon ki Bari
+2.City Palace
+3.Sajjangarh Palace
+
+Day 8 - Departure from Udaipur
+Breakfast at Hotel in Udaipur
+**************************************************
+**************************************************
+
+Tour name  is:Amazing Goa
+
+Tour id is:2104
+
+Cities to visit are:Panaji, Candolim, Goa Velha
+
+Number of days of the tour :3
+
+The price per member is:10000
+
+The itinerary is:
+*********************************************************
+
+2104)AMAZING GOA
+
+Day 1 - NORTH GOA FORTS & BEACHES
+1.Reis Mogos Fort
+2.Aguada Fort
+3.Calangute Beach
+4.Chapora Fort
+5.Vagator Beach
+
+DAY 2 - DUDHSAGAR FALLS
+
+Day 3 - OLD GOA & TEMPLES
+1.Basilica Of Bom Jesus
+2.Se Cathedral
+3.St. Francis Of Assisi Church
+4.St. Augustine Tower / Church Of St. Augustin
+ 5.Shri Mangueshi Temple / Mangeshi Temple
+**************************************************
+**************************************************
+
+Tour name  is:Unparalleled Kerala
+
+Tour id is:2105
+
+Cities to visit are:Kochi, Munnar, Kumarakor
+
+Number of days of the tour :4
+
+The price per member is:13000
+
+The itinerary is:
+*********************************************************
+
+2105)UNPARRALLED KERELA
+
+DAY 1- Kochi
+Day at Leisure
+
+DAY 2 and 3 - Munnar
+1.Visit Eravikulam National Park
+2.Visit to Tea Museum
+3.Visit to Mattupetty Dam
+ 4.Visit to Eco Point
+5.Visit to Flower Garden
+
+DAY 4 -Kumarakom
+Day at Leisure
+**************************************************
+**************************************************
+
+Tour name  is:Mesmerizing Kedarnath
+
+Tour id is:2106
+
+Cities to visit are:Kedarnath, Badrinath
+
+Number of days of the tour :5
+
+The price per member is:16000
+
+The itinerary is:
+*********************************************************
+
+2106)MESMERIZING KEDARNATH
+
+DAY 1 - Dehradun
+Explore on your own
+
+DAY 2 - Yamunotri
+1.Yamunotri Temple
+2.Shani Temple
+
+DAY 3 - Gangotri
+1.Gangotri Temple
+
+DAY 4 - Kedarnath
+1.Visit Kedarnath Temple
+
+DAY 5 - Badrinath
+1.Visit Badrinath Temple
+**************************************************
+**************************************************
+
+Tour name  is:Offbeat Andaman
+
+Tour id is:2107
+
+Cities to visit are:Port Blair, Mayabundar
+
+Number of days of the tour :8
+
+The price per member is:15000
+
+The itinerary is:
+**********************************************************
+
+2107)OFFBEAT ANDAMAN
+
+DAY 1 - Arrival at Port Blair
+1.Cellular Jail Visit
+
+DAY 2 - Port Blair| Bartang | Rangat | Mayabunder | Diglipur
+1. Jarawa Reserve
+2.Mud Volcano 
+3.Limestone cave 
+4.Aamkunj Beach
+ 5.Brake water
+6.Panchabati Fall
+7.Cutbery beach 
+
+DAY 3 - Mayabunder | Diglipur
+1.Kalipur beach
+2.Mayabunder Islands
+3.Karmatang beach
+
+DAY 4 - Mayabunder | Port Blair
+1.Shopping
+
+DAY 5 - Port Blair to Havelock
+
+DAY 6 - Explore Havelock
+1.Radhanagar Beach 
+2.Water sports.
+
+DAY 7 - Havelock to Port Blair
+1.Elephant Beach 
+
+
+DAY 8 - Check out and Return
+**************************************************
+**********************************************************************
+Customer's Menu:
+
+1.Display a tour package
+
+2.Grab a slot in any tour?
+
+4. Exit:
+**********************************************************************
+
+Enter choice:
+2
+Enter your name :
+Shruti Deshpande
+S
+Enter your email ID :
+shruti34@yahoo.com
+Enter your phone number :
+8687579090
+Enter no.of members registering :**(MIN 1 and MAX 25 allowed
+30
+Try again! number of members can be between 1 to 25 only
+Enter no.of members registering :**(MIN 1 and MAX 25 allowed
+5
+Enter 'V' for veg and 'N' for non-veg :
+v
+Enter the tourid of the package you wish to select:
+2103
+
+ Tour id selected is valid
+
+Confirm tour ID to book a tour
+2103
+0 stands for available room and 1 for occupied room
+Number of rooms in floor:0
+->
+0  0  0  1  0  1  
+Number of rooms in floor:1
+->
+1  0  0  0  1  0  
+Number of rooms in floor:2
+->
+0  0  1  0  1  0  
+Number of rooms in floor:3
+->
+1  0  0  0  0  0  
+Number of rooms in floor:4
+->
+1  1  0  0  0  0  
+Number of rooms in floor:5
+->
+1  1  1  1  1  1  
+
+Enter the number of rooms you want to allocate:
+2
+
+Enter the floor number:
+2
+Enter the room number:
+0
+
+Room succesfully allocated
+0 stands for available room and 1 for occupied room
+Number of rooms in floor:0
+->
+0  0  0  1  0  1  
+Number of rooms in floor:1
+->
+1  0  0  0  1  0  
+Number of rooms in floor:2
+->
+1  0  1  0  1  0  
+Number of rooms in floor:3
+->
+1  0  0  0  0  0  
+Number of rooms in floor:4
+->
+1  1  0  0  0  0  
+Number of rooms in floor:5
+->
+1  1  1  1  1  1  
+
+Enter the floor number:
+2
+Enter the room number:
+1
+
+Room succesfully allocated
+0 stands for available room and 1 for occupied room
+Number of rooms in floor:0
+->
+0  0  0  1  0  1  
+Number of rooms in floor:1
+->
+1  0  0  0  1  0  
+Number of rooms in floor:2
+->
+1  1  1  0  1  0  
+Number of rooms in floor:3
+->
+1  0  0  0  0  0  
+Number of rooms in floor:4
+->
+1  1  0  0  0  0  
+Number of rooms in floor:5
+->
+1  1  1  1  1  1  
+You are successfully added to priority queue of Tour:2103
+The name is : Shruti Deshpande
+The email ID is : shruti34@yahoo.com
+The phone no. is : 8687579090
+Your membership is : S
+Your food option is : V
+Total number of members registered : 5
+
+Room allocated is:0 on floor:2
+
+Room allocated is:1 on floor:2
+
+Total room charges for one day:2000.0
+
+Total room charges for all days:16000.0
+**********************************************************************
+Customer's Menu:
+
+1.Display a tour package
+
+2.Grab a slot in any tour?
+
+3.View the customers according to their priority in my tour package
+
+4. Exit:
+**********************************************************************
+
+Enter choice:
+3
+
+Enter the tour ID of the package whose customers you want to allocate:
+2103
+Customers served in this priority order
+Tour booking is not done yet so cannot view
+Tour id not found,Cannot show its customers
+**********************************************************************
+Customer's Menu:
+
+1.Display a tour package
+
+2.Grab a slot in any tour?
+
+3.View the customers according to their priority in my tour package
+
+4. Exit:
+**********************************************************************
+
+Enter choice:
+4
+**************************************************************************
+Welcome To Customer's Login Page
+**************************************************************************
+As a customer:
+1.Create/Login Account
+2.Exit
+***************************************************************************
+Enter your choice:
+1
+Enter name and password to login as a customer:
+Enter name :
+Aditi Jain
+Enter password:
+hello990
+LOGIN SUCCESSFULL
+*****************************************************************************
+Tour package details are as follows:
+**************************************************
+
+Tour name  is:Magical Manali
+
+Tour id is:2100
+
+Cities to visit are:Manali, Jagatsukh, Bahangan Nullah
+
+Number of days of the tour :6
+
+The price per member is:10000
+
+The itinerary is:
+*********************************************************
+
+2100)MAGICAL MANALI 
+
+Day 1 - Manali – Jagatsukh – Khanul
+Village of Jagatsukh to Bahangan Nullah
+Bahangan Nullah serves as your first day’s campsite. 
+
+Day 2 - Camping Site At Prini
+
+Day 3 - A trek of about five kilometres in The Himalayan Mountain ranges
+
+Day 4 - Adeventure attractions:
+1.Burma Bridge
+2. Commando Net
+
+Day 5 - The Mall Road and head back towards the central hill station of Manali.
+
+Day 6 - Shopping and on-foot exploration of the hill station
+Then Manali – Delhi
+**************************************************
+**************************************************
+
+Tour name  is:Historical Maharashtra
+
+Tour id is:2101
+
+Cities to visit are:Mumbai, Nashik, Aurangabad ,Shirdi
+
+Number of days of the tour :6
+
+The price per member is:9000
+
+The itinerary is:
+*********************************************************
+
+2101)HISTORICAL MAHARASHTRA
+
+Day 1 - Arrival in Mumbai
+On reaching Mumbai, check in at the hotel for the night
+
+Day 2 - Sightseeing in Aurangabad
+Post breakfast,cover Elephanta Island and Elephanta Caves
+
+Day 3 - Nashik Sightseeing
+Cover Panchavati Temple, Kalaram Temple, Bhaktidham and Trimbakeshwar
+
+Day 4 - Arrival to Shirdi
+Visit Sai Baba Mandir today
+
+Day 5 - Visit Ajanta Caves
+Enjoy a visit to the rock cut Ajanta Caves today. 
+
+Day 6 - Shirdi Sightseeing
+Enjoy a visit to the Ellora Caves today.
+**************************************************
+**************************************************
+
+Tour name  is:Amazing Ooty and Mysore with Banglore
+
+Tour id is:2102
+
+Cities to visit are:Bangalore, Mysore, Ooty
+
+Number of days of the tour :5
+
+The price per member is:15000
+
+The itinerary is:
+*********************************************************
+
+2102)AMAZING OOTY & MYSORE WITH BANGLORE
+
+Day 1 - Bangalore
+1.Bull Temple
+2.Commercial Street
+3.Vidhana Soudha
+4.Lal Bagh Botanical Garden
+5.Mysore Arts & Crafts Centre
+
+Day 2 - Bangalore to Mysore
+1.Mysore Palace
+2.Brindavan Gardens
+3.Chamundi Hills
+4.St. Philomena Church
+5.Mysore Zoo
+
+Day 3 - Mysore to Ooty
+1.Ooty Lake
+
+Day 4 - Ooty
+1.Sim's Park
+2.Lamb's Rock
+3.Dolphin's Nose
+4.Tea Museum
+5.Coonoor
+6.Doddabetta Peak
+7.Ooty Botanical Gardens
+
+Day 5 - Ooty to Bangalore
+**************************************************
+**************************************************
+
+Tour name  is:Colourful Rajasthan
+
+Tour id is:2103
+
+Cities to visit are:Jaipur, Jodhpur, Jaisalmer, Udaipur
+
+Number of days of the tour :8
+
+The price per member is:14000
+
+The itinerary is:
+*********************************************************
+
+2103)COLOURFULL RAJASTHAN
+
+Day 1 - Arrival in Jaipur
+
+Day 2 - Sightseeing in Jaipur
+1.Amer Fort
+
+Day 3 - Jaipur to Jodhpur
+Sightseeing in Jaisalmer
+1.Umaid Bhawan Palace
+
+Day 4 - Jodhpur to Jaisalmer
+1.Mehrangarh Fort
+2.Jaswant Thada
+
+Day 5 - Jaisalmer
+Sightseeing in Jaisalmer
+1.Nathdwara
+2.Patwaon ki Haveli
+3.Sam Sand Dunes
+
+Day 6 - Jaisalmer to Udaipur(travel)
+
+Day 7 - Udaipur
+Sightseeing in Udaipur
+1.Saheliyon ki Bari
+2.City Palace
+3.Sajjangarh Palace
+
+Day 8 - Departure from Udaipur
+Breakfast at Hotel in Udaipur
+**************************************************
+**************************************************
+
+Tour name  is:Amazing Goa
+
+Tour id is:2104
+
+Cities to visit are:Panaji, Candolim, Goa Velha
+
+Number of days of the tour :3
+
+The price per member is:10000
+
+The itinerary is:
+*********************************************************
+
+2104)AMAZING GOA
+
+Day 1 - NORTH GOA FORTS & BEACHES
+1.Reis Mogos Fort
+2.Aguada Fort
+3.Calangute Beach
+4.Chapora Fort
+5.Vagator Beach
+
+DAY 2 - DUDHSAGAR FALLS
+
+Day 3 - OLD GOA & TEMPLES
+1.Basilica Of Bom Jesus
+2.Se Cathedral
+3.St. Francis Of Assisi Church
+4.St. Augustine Tower / Church Of St. Augustin
+ 5.Shri Mangueshi Temple / Mangeshi Temple
+**************************************************
+**************************************************
+
+Tour name  is:Unparalleled Kerala
+
+Tour id is:2105
+
+Cities to visit are:Kochi, Munnar, Kumarakor
+
+Number of days of the tour :4
+
+The price per member is:13000
+
+The itinerary is:
+*********************************************************
+
+2105)UNPARRALLED KERELA
+
+DAY 1- Kochi
+Day at Leisure
+
+DAY 2 and 3 - Munnar
+1.Visit Eravikulam National Park
+2.Visit to Tea Museum
+3.Visit to Mattupetty Dam
+ 4.Visit to Eco Point
+5.Visit to Flower Garden
+
+DAY 4 -Kumarakom
+Day at Leisure
+**************************************************
+**************************************************
+
+Tour name  is:Mesmerizing Kedarnath
+
+Tour id is:2106
+
+Cities to visit are:Kedarnath, Badrinath
+
+Number of days of the tour :5
+
+The price per member is:16000
+
+The itinerary is:
+*********************************************************
+
+2106)MESMERIZING KEDARNATH
+
+DAY 1 - Dehradun
+Explore on your own
+
+DAY 2 - Yamunotri
+1.Yamunotri Temple
+2.Shani Temple
+
+DAY 3 - Gangotri
+1.Gangotri Temple
+
+DAY 4 - Kedarnath
+1.Visit Kedarnath Temple
+
+DAY 5 - Badrinath
+1.Visit Badrinath Temple
+**************************************************
+**************************************************
+
+Tour name  is:Offbeat Andaman
+
+Tour id is:2107
+
+Cities to visit are:Port Blair, Mayabundar
+
+Number of days of the tour :8
+
+The price per member is:15000
+
+The itinerary is:
+**********************************************************
+
+2107)OFFBEAT ANDAMAN
+
+DAY 1 - Arrival at Port Blair
+1.Cellular Jail Visit
+
+DAY 2 - Port Blair| Bartang | Rangat | Mayabunder | Diglipur
+1. Jarawa Reserve
+2.Mud Volcano 
+3.Limestone cave 
+4.Aamkunj Beach
+ 5.Brake water
+6.Panchabati Fall
+7.Cutbery beach 
+
+DAY 3 - Mayabunder | Diglipur
+1.Kalipur beach
+2.Mayabunder Islands
+3.Karmatang beach
+
+DAY 4 - Mayabunder | Port Blair
+1.Shopping
+
+DAY 5 - Port Blair to Havelock
+
+DAY 6 - Explore Havelock
+1.Radhanagar Beach 
+2.Water sports.
+
+DAY 7 - Havelock to Port Blair
+1.Elephant Beach 
+
+
+DAY 8 - Check out and Return
+**************************************************
+**********************************************************************
+Customer's Menu:
+
+1.Display a tour package
+
+2.Grab a slot in any tour?
+
+4. Exit:
+**********************************************************************
+
+Enter choice:
+2
+Enter your name :
+Aditi Jain
+s
+Enter your email ID :
+adi@yahoo.com
+Enter your phone number :
+7866543456
+Enter no.of members registering :**(MIN 1 and MAX 25 allowed
+9
+Enter 'V' for veg and 'N' for non-veg :
+v
+Enter the tourid of the package you wish to select:
+2103
+
+ Tour id selected is valid
+
+Confirm tour ID to book a tour
+2103
+0 stands for available room and 1 for occupied room
+Number of rooms in floor:0
+->
+0  0  0  1  0  1  
+Number of rooms in floor:1
+->
+1  0  0  0  1  0  
+Number of rooms in floor:2
+->
+1  1  1  0  1  0  
+Number of rooms in floor:3
+->
+1  0  0  0  0  0  
+Number of rooms in floor:4
+->
+1  1  0  0  0  0  
+Number of rooms in floor:5
+->
+1  1  1  1  1  1  
+
+Enter the number of rooms you want to allocate:
+0
+You are successfully added to priority queue of Tour:2103
+The name is : Aditi Jain
+The email ID is : adi@yahoo.com
+The phone no. is : 7866543456
+Your membership is : s
+Your food option is : V
+Total number of members registered : 9
+
+Total room charges for one day:0.0
+
+Total room charges for all days:0.0
+**********************************************************************
+Customer's Menu:
+
+1.Display a tour package
+
+2.Grab a slot in any tour?
+
+4. Exit:
+**********************************************************************
+
+Enter choice:
+4
+**************************************************************************
+Welcome To Customer's Login Page
+**************************************************************************
+As a customer:
+1.Create/Login Account
+2.Exit
+***************************************************************************
+Enter your choice:
+1
+Enter name and password to login as a customer:
+Enter name :
+Anagha Rawat
+Enter password:
+hello880
+LOGIN SUCCESSFULL
+*****************************************************************************
+Tour package details are as follows:
+**************************************************
+
+Tour name  is:Magical Manali
+
+Tour id is:2100
+
+Cities to visit are:Manali, Jagatsukh, Bahangan Nullah
+
+Number of days of the tour :6
+
+The price per member is:10000
+
+The itinerary is:
+*********************************************************
+
+2100)MAGICAL MANALI 
+
+Day 1 - Manali – Jagatsukh – Khanul
+Village of Jagatsukh to Bahangan Nullah
+Bahangan Nullah serves as your first day’s campsite. 
+
+Day 2 - Camping Site At Prini
+
+Day 3 - A trek of about five kilometres in The Himalayan Mountain ranges
+
+Day 4 - Adeventure attractions:
+1.Burma Bridge
+2. Commando Net
+
+Day 5 - The Mall Road and head back towards the central hill station of Manali.
+
+Day 6 - Shopping and on-foot exploration of the hill station
+Then Manali – Delhi
+**************************************************
+**************************************************
+
+Tour name  is:Historical Maharashtra
+
+Tour id is:2101
+
+Cities to visit are:Mumbai, Nashik, Aurangabad ,Shirdi
+
+Number of days of the tour :6
+
+The price per member is:9000
+
+The itinerary is:
+*********************************************************
+
+2101)HISTORICAL MAHARASHTRA
+
+Day 1 - Arrival in Mumbai
+On reaching Mumbai, check in at the hotel for the night
+
+Day 2 - Sightseeing in Aurangabad
+Post breakfast,cover Elephanta Island and Elephanta Caves
+
+Day 3 - Nashik Sightseeing
+Cover Panchavati Temple, Kalaram Temple, Bhaktidham and Trimbakeshwar
+
+Day 4 - Arrival to Shirdi
+Visit Sai Baba Mandir today
+
+Day 5 - Visit Ajanta Caves
+Enjoy a visit to the rock cut Ajanta Caves today. 
+
+Day 6 - Shirdi Sightseeing
+Enjoy a visit to the Ellora Caves today.
+**************************************************
+**************************************************
+
+Tour name  is:Amazing Ooty and Mysore with Banglore
+
+Tour id is:2102
+
+Cities to visit are:Bangalore, Mysore, Ooty
+
+Number of days of the tour :5
+
+The price per member is:15000
+
+The itinerary is:
+*********************************************************
+
+2102)AMAZING OOTY & MYSORE WITH BANGLORE
+
+Day 1 - Bangalore
+1.Bull Temple
+2.Commercial Street
+3.Vidhana Soudha
+4.Lal Bagh Botanical Garden
+5.Mysore Arts & Crafts Centre
+
+Day 2 - Bangalore to Mysore
+1.Mysore Palace
+2.Brindavan Gardens
+3.Chamundi Hills
+4.St. Philomena Church
+5.Mysore Zoo
+
+Day 3 - Mysore to Ooty
+1.Ooty Lake
+
+Day 4 - Ooty
+1.Sim's Park
+2.Lamb's Rock
+3.Dolphin's Nose
+4.Tea Museum
+5.Coonoor
+6.Doddabetta Peak
+7.Ooty Botanical Gardens
+
+Day 5 - Ooty to Bangalore
+**************************************************
+**************************************************
+
+Tour name  is:Colourful Rajasthan
+
+Tour id is:2103
+
+Cities to visit are:Jaipur, Jodhpur, Jaisalmer, Udaipur
+
+Number of days of the tour :8
+
+The price per member is:14000
+
+The itinerary is:
+*********************************************************
+
+2103)COLOURFULL RAJASTHAN
+
+Day 1 - Arrival in Jaipur
+
+Day 2 - Sightseeing in Jaipur
+1.Amer Fort
+
+Day 3 - Jaipur to Jodhpur
+Sightseeing in Jaisalmer
+1.Umaid Bhawan Palace
+
+Day 4 - Jodhpur to Jaisalmer
+1.Mehrangarh Fort
+2.Jaswant Thada
+
+Day 5 - Jaisalmer
+Sightseeing in Jaisalmer
+1.Nathdwara
+2.Patwaon ki Haveli
+3.Sam Sand Dunes
+
+Day 6 - Jaisalmer to Udaipur(travel)
+
+Day 7 - Udaipur
+Sightseeing in Udaipur
+1.Saheliyon ki Bari
+2.City Palace
+3.Sajjangarh Palace
+
+Day 8 - Departure from Udaipur
+Breakfast at Hotel in Udaipur
+**************************************************
+**************************************************
+
+Tour name  is:Amazing Goa
+
+Tour id is:2104
+
+Cities to visit are:Panaji, Candolim, Goa Velha
+
+Number of days of the tour :3
+
+The price per member is:10000
+
+The itinerary is:
+*********************************************************
+
+2104)AMAZING GOA
+
+Day 1 - NORTH GOA FORTS & BEACHES
+1.Reis Mogos Fort
+2.Aguada Fort
+3.Calangute Beach
+4.Chapora Fort
+5.Vagator Beach
+
+DAY 2 - DUDHSAGAR FALLS
+
+Day 3 - OLD GOA & TEMPLES
+1.Basilica Of Bom Jesus
+2.Se Cathedral
+3.St. Francis Of Assisi Church
+4.St. Augustine Tower / Church Of St. Augustin
+ 5.Shri Mangueshi Temple / Mangeshi Temple
+**************************************************
+**************************************************
+
+Tour name  is:Unparalleled Kerala
+
+Tour id is:2105
+
+Cities to visit are:Kochi, Munnar, Kumarakor
+
+Number of days of the tour :4
+
+The price per member is:13000
+
+The itinerary is:
+*********************************************************
+
+2105)UNPARRALLED KERELA
+
+DAY 1- Kochi
+Day at Leisure
+
+DAY 2 and 3 - Munnar
+1.Visit Eravikulam National Park
+2.Visit to Tea Museum
+3.Visit to Mattupetty Dam
+ 4.Visit to Eco Point
+5.Visit to Flower Garden
+
+DAY 4 -Kumarakom
+Day at Leisure
+**************************************************
+**************************************************
+
+Tour name  is:Mesmerizing Kedarnath
+
+Tour id is:2106
+
+Cities to visit are:Kedarnath, Badrinath
+
+Number of days of the tour :5
+
+The price per member is:16000
+
+The itinerary is:
+*********************************************************
+
+2106)MESMERIZING KEDARNATH
+
+DAY 1 - Dehradun
+Explore on your own
+
+DAY 2 - Yamunotri
+1.Yamunotri Temple
+2.Shani Temple
+
+DAY 3 - Gangotri
+1.Gangotri Temple
+
+DAY 4 - Kedarnath
+1.Visit Kedarnath Temple
+
+DAY 5 - Badrinath
+1.Visit Badrinath Temple
+**************************************************
+**************************************************
+
+Tour name  is:Offbeat Andaman
+
+Tour id is:2107
+
+Cities to visit are:Port Blair, Mayabundar
+
+Number of days of the tour :8
+
+The price per member is:15000
+
+The itinerary is:
+**********************************************************
+
+2107)OFFBEAT ANDAMAN
+
+DAY 1 - Arrival at Port Blair
+1.Cellular Jail Visit
+
+DAY 2 - Port Blair| Bartang | Rangat | Mayabunder | Diglipur
+1. Jarawa Reserve
+2.Mud Volcano 
+3.Limestone cave 
+4.Aamkunj Beach
+ 5.Brake water
+6.Panchabati Fall
+7.Cutbery beach 
+
+DAY 3 - Mayabunder | Diglipur
+1.Kalipur beach
+2.Mayabunder Islands
+3.Karmatang beach
+
+DAY 4 - Mayabunder | Port Blair
+1.Shopping
+
+DAY 5 - Port Blair to Havelock
+
+DAY 6 - Explore Havelock
+1.Radhanagar Beach 
+2.Water sports.
+
+DAY 7 - Havelock to Port Blair
+1.Elephant Beach 
+
+
+DAY 8 - Check out and Return
+**************************************************
+**********************************************************************
+Customer's Menu:
+
+1.Display a tour package
+
+2.Grab a slot in any tour?
+
+4. Exit:
+**********************************************************************
+
+Enter choice:
+2
+Enter your name :
+Anagha Rawat
+G
+Enter your email ID :
+anagha234#
+Wrong email id entered try again
+Enter your email ID :
+anagha@gmail.com
+Enter your phone number :
+8235789098
+Enter no.of members registering :**(MIN 1 and MAX 25 allowed
+20
+Enter 'V' for veg and 'N' for non-veg :
+n
+Enter the tourid of the package you wish to select:
+2103
+
+ Tour id selected is valid
+
+Confirm tour ID to book a tour
+2103
+0 stands for available room and 1 for occupied room
+Number of rooms in floor:0
+->
+0  0  0  1  0  1  
+Number of rooms in floor:1
+->
+1  0  0  0  1  0  
+Number of rooms in floor:2
+->
+1  1  1  0  1  0  
+Number of rooms in floor:3
+->
+1  0  0  0  0  0  
+Number of rooms in floor:4
+->
+1  1  0  0  0  0  
+Number of rooms in floor:5
+->
+1  1  1  1  1  1  
+
+Enter the number of rooms you want to allocate:
+1
+
+Enter the floor number:
+4
+Enter the room number:
+5
+
+Room succesfully allocated
+0 stands for available room and 1 for occupied room
+Number of rooms in floor:0
+->
+0  0  0  1  0  1  
+Number of rooms in floor:1
+->
+1  0  0  0  1  0  
+Number of rooms in floor:2
+->
+1  1  1  0  1  0  
+Number of rooms in floor:3
+->
+1  0  0  0  0  0  
+Number of rooms in floor:4
+->
+1  1  0  0  0  1  
+Number of rooms in floor:5
+->
+1  1  1  1  1  1  
+Tour package Booking full! Cannot allocate
+**********************************************************************
+Customer's Menu:
+
+1.Display a tour package
+
+2.Grab a slot in any tour?
+
+3.View the customers according to their priority in my tour package
+
+4. Exit:
+**********************************************************************
+
+Enter choice:
+4
+**************************************************************************
+Welcome To Customer's Login Page
+**************************************************************************
+As a customer:
+1.Create/Login Account
+2.Exit
+***************************************************************************
+Enter your choice:
+2
+Exit
+Thank you for visting us
+1.Login as a Admin
+2.Login as a Customer
+3.Exit
+1
+Welcome to Login Page for ADMINS
+Enter your name to login:
+Prajakta
+Enter security key (password) to login:
+admin101@11
+LOGIN SUCCESFUL AS ADMIN
+
+**************************************************************************
+Welcome to Admin Page:
+***************************************************************************
+1.Add a tour package
+2.Delete a tour package
+3.Modify a tour package
+4.Display a tour package
+0.Allocate customers finally
+6.Exit
+***************************************************************************
+Enter your choice:
+0
+
+Enter tour id to allocate its customers prices:
+2103
+**********************************************************************
+The name is : Mihir Dorkhande
+The email ID is : mihir@gmail.com
+The phone no. is : 7898789098
+Your membership is : P
+Your food option is : V
+Total number of members registered : 20
+Separate hotel room charges other than bill for entire tour: 40000.0
+THE CUSTOMER'S BILL IS(without hotel charges):196000.0
+BILL INCLUDING HOTEL CHARGES IS236000.0
+**********************************************************************
+
+
+**********************************************************************
+The name is : Anushka Raman
+The email ID is : anu@gmail.com
+The phone no. is : 7864321234
+Your membership is : G
+Your food option is : N
+Total number of members registered : 19
+Separate hotel room charges other than bill for entire tour: 8000.0
+THE CUSTOMER'S BILL IS(without hotel charges):186200.0
+BILL INCLUDING HOTEL CHARGES IS194200.0
+**********************************************************************
+
+
+**********************************************************************
+The name is : Shruti Deshpande
+The email ID is : shruti34@yahoo.com
+The phone no. is : 8687579090
+Your membership is : S
+Your food option is : V
+Total number of members registered : 5
+Separate hotel room charges other than bill for entire tour: 16000.0
+THE CUSTOMER'S BILL IS(without hotel charges) :56000.0
+BILL INCLUDING HOTEL CHARGES IS72000.0
+**********************************************************************
+
+
+**********************************************************************
+The name is : Aditi Jain
+The email ID is : adi@yahoo.com
+The phone no. is : 7866543456
+Your membership is : s
+Your food option is : V
+Total number of members registered : 9
+Separate hotel room charges other than bill for entire tour: 0.0
+THE CUSTOMER'S BILL IS(without hotel charges):113400.0
+BILL INCLUDING HOTEL CHARGES IS113400.0
+**********************************************************************
+
+
+**********************************************************************
+The name is : Sanika
+The email ID is : sanu@gmail.com
+The phone no. is : 7867567890
+Your membership is : N
+Your food option is : V
+Total number of members registered : 5
+Separate hotel room charges other than bill for entire tour: 0.0
+THE CUSTOMER'S BILL IS(without hotel charges):66500.0
+BILL INCLUDING HOTEL CHARGES IS66500.0
+**********************************************************************
+
+
+Do you want to continue?(press 1)
+1
+
+Enter tour id to allocate its customers prices:
+2103
+Do you want to continue?(press 1)
+0
+**************************************************************************
+Welcome to Admin Page:
+***************************************************************************
+1.Add a tour package
+2.Delete a tour package
+3.Modify a tour package
+4.Display a tour package
+0.Allocate customers finally
+6.Exit
+***************************************************************************
+Enter your choice:
+6
+
+Exited
+Wrong choice Try again
+Do you wish to try again to login as admin?
+If yes enter y else enter n
+n
+1.Login as a Admin
+2.Login as a Customer
+3.Exit
+3
+Thank you for visting us
+
+!!!!THANK YOU!!!!
+
+Exited
