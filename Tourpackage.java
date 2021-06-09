@@ -10,8 +10,6 @@ public class Tourpackage
 	   boolean isFilled;
 	  // LinkedList<Accounts> d = new LinkedList<Accounts>();
 	   
-	   
-	   
 	   int availablerooms=12;
 	   
 	   //in each city of each tour we have similar structure hotel
@@ -29,10 +27,6 @@ public class Tourpackage
 	  //scope can be increase
 	  PriorityQueue<Customer> pq = new PriorityQueue<Customer>(5, new CustomerComparator());
 	
-	   
-	   //PriorityQueue<Integer> pq = new PriorityQueue<Customer>((c1.priority ,c2.priority)-> c2 - c1);
-	   //PriorityQueue<Integer> pQueue = new PriorityQueue<Integer>(new Comparator<Integer>() 
-	   
 	   StringBuilder itinerary=new StringBuilder(1000);
 	   Tourpackage()
 	   {
@@ -49,21 +43,20 @@ public class Tourpackage
 	  {
 		  System.out.println("0 stands for available room and 1 for occupied room");
 	       for(int j=0;j<6;j++)
-          {
-		    System.out.println("Number of rooms in floor:"+j);
+               {
+		System.out.println("Number of rooms in floor:"+j);
         	System.out.println("->");
         	for(int k=0;k<6;k++)
         	{
         		System.out.print(hotel[j][k]+"  ");
         	}
         	System.out.println();
-        }
+              }
 	  }
 	  
 	  
 	  int checkAvailability(int f,int r)
-	  {
-		 
+	  { 
 		  if(hotel[f][r]==0)
 		  {
 			 hotel[f][r]=1;
@@ -71,13 +64,14 @@ public class Tourpackage
 		  }
 				  
 		  return 5;		
-			 
 	
 	  }
+	
 	   int getTourId()
 	   {
 		   return tourid;
 	   }
+	
 	  Tourpackage(int tourid,String citiesToVisit,int noOfDays,StringBuilder itinerary,String tourname,int priceOftourpermember)
 	  {
 	      this.tourid=tourid;
@@ -109,10 +103,7 @@ public class Tourpackage
 	               
 	               System.out.println("Enter the number of days of the new package");
 	                noOfDays=sc.nextInt();
-	                
-	                
-
-	                
+	              
 	                System.out.println("Enter the itinerary details");
 	                
 	                System.out.println("Enter the number of lines you want to enter");
