@@ -3496,7 +3496,8 @@ Exited
 
 //Here in the output the customers were allocated as 1st Mihir Dorkhande having highest priority as he had Platinum membership and 20 members
 //then Anushka Raman was alloted a tour as she had Gold membership and 19 members
-//After that both members Shruti Deshpande and Aditi Jain had same priorities (same membership silver (but though number of members were different 5 and 9)their priority range was same so first come first serve was followed and Shruti Deshpande was alloted a tour first
+//After that both members Shruti Deshpande and Aditi Jain had same priorities (same membership silver (but though number of members
+were different 5 and 9)their priority range was same so first come first serve was followed and Shruti Deshpande was alloted a tour first
 //after that Aditi Jain was alloted a tour
 //last Sanika was alloted a tour as she had least priority because she had No membership and number of members were also less(5).
 
