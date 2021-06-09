@@ -1,5 +1,6 @@
 # Buffer-Project
 The code is has 6 classes:Main,Tourpackage,Customer,Admin,Registered Users,CustomerComparator.
+
 OBJECTIVE:
 A tourism based agency that gives customers dicounts on the basis of the number of members and their membership.
 Priority Queue has been implemented for giving the Customers discounts.
@@ -12,6 +13,13 @@ Arraylist: Used for storing Admin details
 LinkedList: Used for storing tour details and customer details and bills of customers
 
 Arrays: Used for storing hotel rooms and showing their occupancy status.
+
+
+What we learnt from this project:
+Using arraylist,linkedlist and priority queue provided by Collection Framework.Using modular approach for programming and writing and checking the code function by function.
+
+
+
 
 Future Scope of the Project:
 We will be adding 
