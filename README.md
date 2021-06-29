@@ -29,4 +29,4 @@ Mentor:Vallari Rajurkar
 *Prajakta Deokule-Priority Queue and Main
 *Akhila Nori-Hotel booking 
 *Chinmayi Adsul-Tour package itineraries
-*The rest of the code was done by all of us together.
+*The rest of the code was done by all of us together
