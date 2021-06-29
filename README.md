@@ -21,9 +21,9 @@ We will be adding
 
 Read the travel_buffer_modified-converted.pdf for detailed functionalities and view the output given in the output file.
 ##### *Contributors*:
-Arundhati Korlahalli,Prajakta Deokule, Akhila Nori, Chinmayi Adsul
+######**Arundhati Korlahalli,Prajakta Deokule, Akhila Nori, Chinmayi Adsul**
 
-Mentor:Vallari Rajurkar
+######Mentor:Vallari Rajurkar
 
 * Arundhati Korlahalli-Customer functionalities 
 * Prajakta Deokule-Priority Queue and Main
