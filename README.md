@@ -25,8 +25,8 @@ Read the travel_buffer_modified-converted.pdf for detailed functionalities and v
 
 ###### Mentor:Vallari Rajurkar
 
-* Arundhati Korlahalli-Customer functionalities 
-* Prajakta Deokule-Priority Queue and Main
-* Akhila Nori-Hotel booking 
-* Chinmayi Adsul-Tour package itineraries
+* Arundhati Korlahalli - Customer functionalities 
+* Prajakta Deokule - Priority Queue and Main
+* Akhila Nori - Hotel booking 
+* Chinmayi Adsul - Tour package itineraries
 * The rest of the code was done by all of us together
