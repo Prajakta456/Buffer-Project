@@ -1,4 +1,4 @@
-## Buffer-Project
+# Buffer-Project
 ### The code is has 6 classes:Main,Tourpackage,Customer,Admin,Registered Users,CustomerComparator.
 **OBJECTIVE**:
 A tourism based agency that gives customers discounts on the basis of the number of members and their membership.
