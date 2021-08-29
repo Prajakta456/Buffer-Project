@@ -11,9 +11,9 @@ public class CustomerComparator implements Comparator<Customer>
 		public int compare(Customer c1, Customer c2) 
    		{	
 	            if (c1.priority< c2.priority)
-	                return 1;
+	                return c2.priority-c1.priority;
 	            else if (c1.priority > c2.priority)
-	                return -1;
+	                return c2.priority-c1.priority;
 	   
 			return 0;
 		}
