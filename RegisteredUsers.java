@@ -9,7 +9,7 @@ public class RegisteredUsers
 		  
 		  RegisteredUsers(String cname,String password,char membership1)
 		  {
-			this.membership1=membership1;  
+		    this.membership1=membership1;  
 		    this.cname=cname;
 		    this.password=password;  
 		  }
