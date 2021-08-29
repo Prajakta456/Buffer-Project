@@ -10,7 +10,7 @@ public class Tourpackage
 	   boolean isFilled;
 	  // LinkedList<Accounts> d = new LinkedList<Accounts>();
 	   
-	   int availablerooms=36;
+	   int availablerooms=12;
 	   
 	   //in each city of each tour we have similar structure hotel
 	   //it is a chain of hotels all over the country
