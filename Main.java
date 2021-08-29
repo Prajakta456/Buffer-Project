@@ -10,7 +10,8 @@ public class Main
 	    System.out.println("WELCOME TO OUR TOURISM AGENCY");
 	    System.out.println("=======================================================================================");
 	    Scanner sc=new Scanner(System.in);
-	    int floor=-1,room=-1,chhhh,inc=0;
+	    //int floor=-1,room=-1,
+		int chhhh,inc=0;
 	    
 	    int tourIDselected,choiceToallot;
 	     LinkedList<Tourpackage> tours = new LinkedList<Tourpackage>();
@@ -499,14 +500,14 @@ public class Main
                               
                            }
                          }
-                        if(counter==0)
+                       /* if(counter==0)
                         {
                           System.out.println("\nCannot do hotel booking tour not avaialble");
-                        }
+                        }*/
                        else
                        {
                     	  customer1.totalamt=customer1.noOfMembers*tours.get(i).priceOftourpermember;
-                         tours.get(i).displayHotel();
+                         /*tours.get(i).displayHotel();
                          System.out.println("\nEnter the number of rooms you want to allocate:");
                          int nr=sc.nextInt();
                          int floor1[]=new int[nr];
@@ -553,7 +554,7 @@ public class Main
                          }
                          else
                          System.out.println("\n"+nr+" Rooms not available");
-                         
+                         */
                          if(tours.get(i).pq.size()<5)
                          {
                           	 
