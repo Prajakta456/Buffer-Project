@@ -499,62 +499,11 @@ public class Main
                               break;
                               
                            }
-                         }
-                       /* if(counter==0)
-                        {
-                          System.out.println("\nCannot do hotel booking tour not avaialble");
-                        }*/
+                       
                        else
                        {
                     	  customer1.totalamt=customer1.noOfMembers*tours.get(i).priceOftourpermember;
-                         /*tours.get(i).displayHotel();
-                         System.out.println("\nEnter the number of rooms you want to allocate:");
-                         int nr=sc.nextInt();
-                         int floor1[]=new int[nr];
-                         int room1[]=new int[nr];
-                         
-                         for(int t=0;t<nr;t++)
-                         {
-                        	 for(int j=0;j<nr;j++)
-                        	 {
-                        		 floor1[t]=-1;
-                        		 room1[t]=-1;
-                        	 }
-                         }
-                         
-                         int countroom=0,ct=0;
-                         if(nr<=tours.get(i).availablerooms)
-                         {
-                        	 for(int pr=0;pr<nr;pr++)
-                        	 {
-                        		 System.out.println("\nEnter the floor number:");
-                                 floor=sc.nextInt();
-                                 System.out.println("Enter the room number:");
-                                 room=sc.nextInt();
-                                 int available=tours.get(i).checkAvailability(floor,room);
-                                 if(available==1)
-                                 {
-                                 System.out.println("\nRoom succesfully allocated");
-                                 floor1[ct]=floor;
-                                 room1[ct]=room;
-                                 countroom++;
-                                 tours.get(i).availablerooms--;
-                                 ct++;
-                                 }
-                                 else if(available==5)
-                                 {
-                                	 System.out.println("Could not allocate room");
-                                	 floor1[ct]=-1;
-                                	 room1[ct]=-1;
-                                 }
-                                 
-                                 customer.add(customer1);
-                                 tours.get(i).displayHotel();
-                        	 }
-                         }
-                         else
-                         System.out.println("\n"+nr+" Rooms not available");
-                         */
+                        
                          if(tours.get(i).pq.size()<5)
                          {
                           	 
@@ -564,7 +513,7 @@ public class Main
                          {
                         	 tours.get(i).isFilled=true;
                          }
-                         customer1.displayBooking(room1,floor1,countroom,tours.get(i).noOfDays);
+                         customer1.displayBooking(tours.get(i).noOfDays);
                          break;
                          }
                          else
