@@ -10,8 +10,8 @@ public class Tourpackage
 	   boolean isFilled;
 	  // LinkedList<Accounts> d = new LinkedList<Accounts>();
 	   
-	   int availablerooms=12;
-	   
+	  // int availablerooms=12;
+	   /*
 	   //in each city of each tour we have similar structure hotel
 	   //it is a chain of hotels all over the country
 	   //price per day of 1 room is 1000
@@ -21,6 +21,7 @@ public class Tourpackage
 	                    {1,0,0,0,0,0},
 	                    {1,0,0,0,0,0},
 	                    {1,0,0,0,0,0}};
+			    */
        
 	 //all tour packages priority queues will be created 
 	  //right now only 5 customers are allowed in a tour package queue
@@ -39,7 +40,7 @@ public class Tourpackage
 	       this.isFilled=false;
 	   }
 	   
-	  void displayHotel()
+	  /*void displayHotel()
 	  {
 		  System.out.println("0 stands for available room and 1 for occupied room");
 	       for(int j=0;j<6;j++)
@@ -66,7 +67,7 @@ public class Tourpackage
 		  return 5;		
 	
 	  }
-	
+	*/
 	   int getTourId()
 	   {
 		   return tourid;
@@ -151,9 +152,9 @@ public class Tourpackage
 	        	System.out.println("**********************************************************************");
 	        	c5.displayBooking();   
                c5.totalamt=c5.totalamt-0.3*c5.totalamt;
-               System.out.println("THE CUSTOMER'S BILL IS(without hotel charges):"+c5.totalamt);
-               finalAmt=c5.totalamt+c5.totalhotelc;
-               System.out.println("BILL INCLUDING HOTEL CHARGES IS"+finalAmt);
+               System.out.println("THE CUSTOMER'S BILL IS"+c5.totalamt);
+               //finalAmt=c5.totalamt+c5.totalhotelc;
+               //System.out.println("BILL INCLUDING HOTEL CHARGES IS"+finalAmt);
                System.out.println("**********************************************************************"+"\n\n");
                }
                else if(countCust==2)
@@ -161,9 +162,9 @@ public class Tourpackage
             	System.out.println("**********************************************************************");   
             	c5.displayBooking();    
                c5.totalamt=c5.totalamt-0.2*c5.totalamt;
-               System.out.println("THE CUSTOMER'S BILL IS(without hotel charges) :"+c5.totalamt);
-               finalAmt=c5.totalamt+c5.totalhotelc;
-               System.out.println("BILL INCLUDING HOTEL CHARGES IS"+finalAmt);
+               System.out.println("THE CUSTOMER'S BILL IS:"+c5.totalamt);
+               //finalAmt=c5.totalamt+c5.totalhotelc;
+               //System.out.println("BILL INCLUDING HOTEL CHARGES IS"+finalAmt);
                System.out.println("**********************************************************************"+"\n\n");
                }
                else if(countCust==3)
@@ -171,9 +172,9 @@ public class Tourpackage
             	System.out.println("**********************************************************************");
             	c5.displayBooking(); 
                c5.totalamt=c5.totalamt-0.1*c5.totalamt;
-               System.out.println("THE CUSTOMER'S BILL IS(without hotel charges):"+c5.totalamt);
-               finalAmt=c5.totalamt+c5.totalhotelc;
-               System.out.println("BILL INCLUDING HOTEL CHARGES IS"+finalAmt);
+               System.out.println("THE CUSTOMER'S BILL IS:"+c5.totalamt);
+               //finalAmt=c5.totalamt+c5.totalhotelc;
+               //System.out.println("BILL INCLUDING HOTEL CHARGES IS"+finalAmt);
                System.out.println("**********************************************************************"+"\n\n");
                }
                 else if(countCust==4)
@@ -181,9 +182,9 @@ public class Tourpackage
                System.out.println("**********************************************************************");
                c5.displayBooking(); 
                c5.totalamt=c5.totalamt-0.05*c5.totalamt;
-               System.out.println("THE CUSTOMER'S BILL IS(without hotel charges):"+c5.totalamt);
-               finalAmt=c5.totalamt+c5.totalhotelc;
-               System.out.println("BILL INCLUDING HOTEL CHARGES IS"+finalAmt);
+               System.out.println("THE CUSTOMER'S BILL IS"+c5.totalamt);
+               //finalAmt=c5.totalamt+c5.totalhotelc;
+               //System.out.println("BILL INCLUDING HOTEL CHARGES IS"+finalAmt);
                System.out.println("**********************************************************************"+"\n\n");
                 }
 	          
