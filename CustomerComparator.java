@@ -9,8 +9,7 @@ public class CustomerComparator implements Comparator<Customer>
                   
    		@Override
 		public int compare(Customer c1, Customer c2) 
-   		{
-			// TODO Auto-generated method stub	
+   		{	
 	            if (c1.priority< c2.priority)
 	                return 1;
 	            else if (c1.priority > c2.priority)
