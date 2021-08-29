@@ -15,11 +15,7 @@ public class Main
 	    int tourIDselected,choiceToallot;
 	     LinkedList<Tourpackage> tours = new LinkedList<Tourpackage>();
 	     LinkedList<Customer>customer = new LinkedList<Customer>();
-	     
-	     
-	     
-        
-        
+	    
 	     int counterTourID=2108;
 	     
 	    
