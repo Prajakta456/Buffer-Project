@@ -20,12 +20,9 @@ We will be adding
 
 Read the travel_buffer_modified-converted.pdf for detailed functionalities and view the output given in the output file.
 ##### *Contributors*:
-###### **Arundhati Korlahalli,Prajakta Deokule, Akhila Nori, Chinmayi Adsul**
-
-###### Mentor:Vallari Rajurkar
+###### **Prajakta Deokule, Arundhati Korlahalli,Akhila Nori, Chinmayi Adsul**
 
 * Arundhati Korlahalli - Customer functionalities 
 * Prajakta Deokule - Priority Queue and Main
 * Akhila Nori - Hotel booking 
 * Chinmayi Adsul - Tour package itineraries
-* The rest of the code was done by all of us together
