@@ -106,9 +106,16 @@ public class Tourpackage
 	           countCust++;
 	           Customer c5;
 	           c5=pq.poll();
-	           if(countCust==0||countCust==1)
+	           if(countCust==0)
                    {
 	        	System.out.println("**********************************************************************");
+	        	c5.displayBooking();   
+                        c5.totalamt=c5.totalamt-0.4*c5.totalamt;
+                        System.out.println("THE CUSTOMER'S BILL IS"+c5.totalamt);
+                        System.out.println("**********************************************************************"+"\n\n");
+		   }
+	          else if(countCust==1)	{
+			System.out.println("**********************************************************************");
 	        	c5.displayBooking();   
                         c5.totalamt=c5.totalamt-0.3*c5.totalamt;
                         System.out.println("THE CUSTOMER'S BILL IS"+c5.totalamt);
