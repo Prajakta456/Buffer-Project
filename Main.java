@@ -422,13 +422,13 @@ public class Main
 	               {
 	                  Customer customer1=new Customer();
 	                  System.out.println("**********************************************************************");
-	              	 System.out.println("Customer's Menu:");
-	              	System.out.println("\n1.Display a tour package");
-	              	System.out.println("\n2.Grab a slot in any tour?");
-	                System.out.println("\n4. Exit:");
-	                System.out.println("**********************************************************************");
-	                 System.out.println("\nEnter choice:");
-	                 Scanner sss=new Scanner(System.in);
+	              	  System.out.println("Customer's Menu:");
+	              	  System.out.println("\n1.Display a tour package");
+	              	  System.out.println("\n2.Grab a slot in any tour?");
+	                  System.out.println("\n4. Exit:");
+	                  System.out.println("**********************************************************************");
+	                  System.out.println("\nEnter choice:");
+	                  Scanner sss=new Scanner(System.in);
 	                 chhhh=sss.nextInt();
 	                 switch (chhhh) {
 	                 case 1:
@@ -460,7 +460,7 @@ public class Main
                          {
                             Tourpackage tp2;
                             System.out.println("***************************************************************************");
-        	                 System.out.println("\nThe tour details are as follows ");
+        	            System.out.println("\nThe tour details are as follows ");
                            tp2=tours.get(index11);
                            System.out.println("\nThe tourid of the package is "+tp2.tourid+"\nThe name of the tour package is "+tp2.tourname+"\nThe cities to visit of the package are "+tp2.citiesToVisit+"\nThe number of days of the package is "+tp2.noOfDays+"\nThe itinerary of the package is "+tp2.itinerary);
                            System.out.println("***************************************************************************");
