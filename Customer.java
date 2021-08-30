@@ -12,9 +12,7 @@ public class Customer extends Main
 	  int priority;
 	  int selectedTour;
 	  double totalamt;
-	  double roomcharge;
-	  double totalhotelc;
-	 
+	 	 
 	  Customer()
 	  {
 	     this.name = "";
@@ -25,8 +23,6 @@ public class Customer extends Main
 	     this.priority=0;
 	     this.selectedTour=0;
 	     this.totalamt=0.0;
-	     this.roomcharge=0.0;
-	     this.totalhotelc=0.0;
 	  }
 
 	  
@@ -60,19 +56,6 @@ public class Customer extends Main
 	    System.out.println("Your membership is : "+this.membership);
 	    System.out.println("Your food option is : "+this.vegOptions);
 	    System.out.println("Total number of members registered : "+this.noOfMembers);
-	    int i=0;
-	    roomcharge=n*1000;
-	    for(;i<n;i++)
-	    {
-	    if(room[i]!=-1&& floor[i]!=-1)
-	    {
-	    System.out.println("\nRoom allocated is:"+room[i]+" on floor:"+floor[i]);  
-	   
-	    }
-	    }
-	    totalhotelc=roomcharge*d;
-	    System.out.println("\nTotal room charges for one day:"+roomcharge);
-	    System.out.println("\nTotal room charges for all days:"+totalhotelc);
 	  }
 	   public void displayBooking()
 		  {
@@ -83,7 +66,6 @@ public class Customer extends Main
 		    System.out.println("Your membership is : "+this.membership);
 		    System.out.println("Your food option is : "+this.vegOptions);
 		    System.out.println("Total number of members registered : "+this.noOfMembers);
-		    System.out.println("Separate hotel room charges other than bill for entire tour: "+totalhotelc);  
 		  }
 	    public int acceptDetails(LinkedList<RegisteredUsers> ru1)
 	    {
