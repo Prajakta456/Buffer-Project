@@ -1,7 +1,7 @@
 package tourism;
 import java.util.*;
 import java.lang.*;
-public class Customer extends Main
+public class Customer
 {
 	 String name;
 	 int noOfMembers;
