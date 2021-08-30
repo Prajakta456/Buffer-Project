@@ -7,7 +7,6 @@ A tourism based agency that gives customers discounts on the basis of the number
 * Priority Queue: For storing the Customer class objects.Priority queue is implemented using the Customer Comparator class.Priorities have been calculated in the Customer class.
 * Arraylist: Used for storing Admin details
 * LinkedList: Used for storing tour details and customer details and bills of customers
-* Arrays: Used for storing hotel rooms and showing their occupancy status.
 
 ### *WHAT WE LEARNED*:
 1. Using arraylist,linkedlist and priority queue provided by Collection Framework.
