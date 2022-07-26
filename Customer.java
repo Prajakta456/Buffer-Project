@@ -1,7 +1,7 @@
 package tourism;
 import java.util.*;
 import java.lang.*;
-public class Customer
+public class Customer implements Comparable<Student>
 {
 	 String name;
 	 int noOfMembers;
@@ -24,7 +24,24 @@ public class Customer
 	     this.selectedTour=0;
 	     this.totalamt=0.0;
 	  }
+	  
+	  /*public int compareTo(Object obj): It is used to compare the current object with the specified object. It returns
+             positive integer, if the current object is greater than the specified object.
+             negative integer, if the current object is less than the specified object.
+             zero, if the current object is equal to the specified object.*/
+         
+	 public int compareTo(Customer ct){  
+               
+	       if(priority==ct.priority)  
+                return 0;  
 
+                else if(priority>ct.priority)  
+                  return 1;  
+
+               else  
+                 return -1;  
+              
+            }  
 	  
 	  Customer(String name,int noOfMembers,String emailID,String phoneNo,char membership,char vegOptions)
 	  {
