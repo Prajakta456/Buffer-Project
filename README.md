@@ -1,6 +1,5 @@
 # Buffer-Project
-###### The code is has 6 classes:Main,Tourpackage,Customer,Admin,Registered Users,CustomerComparator.
-##### **OBJECTIVE**:
+###### The code is has 5 classes:Main,Tourpackage,Customer,Admin,Registered Users
 A tourism based agency that gives customers discounts on the basis of the number of members and their membership.
 *Priority Queue has been implemented for giving the Customers discounts.
 ### **DATA STRUCTURES USED**:
