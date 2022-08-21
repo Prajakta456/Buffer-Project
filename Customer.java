@@ -1,7 +1,7 @@
 package tourism;
 import java.util.*;
 import java.lang.*;
-public class Customer implements Comparable<Student>
+public class Customer implements Comparable<Customer>
 {
 	 String name;
 	 int noOfMembers;
