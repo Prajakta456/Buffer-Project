@@ -9,9 +9,9 @@ public class Customer implements Comparable<Customer>
 	 String phoneNo;
 	 char membership;
 	 char vegOptions;
-	  int priority;
-	  int selectedTour;
-	  double totalamt;
+	 int priority;
+	 int selectedTour;
+	 double totalamt;
 	 	 
 	  Customer()
 	  {
@@ -51,7 +51,6 @@ public class Customer implements Comparable<Customer>
 	     this.phoneNo = phoneNo;
 	     this.membership = membership;
 	     this.vegOptions = vegOptions;
-	     
 	  }
 
 	  public String getName() 
@@ -64,26 +63,15 @@ public class Customer implements Comparable<Customer>
 		  return priority;
 		  
 	  }
-	  
-	   public void displayBooking(int room[],int floor[],int n,int d)
-	  {
-	    System.out.println("The name is : "+this.name);
-	    System.out.println("The email ID is : "+this.emailID);
-	    System.out.println("The phone no. is : "+this.phoneNo);
-	    System.out.println("Your membership is : "+this.membership);
-	    System.out.println("Your food option is : "+this.vegOptions);
-	    System.out.println("Total number of members registered : "+this.noOfMembers);
-	  }
 	   public void displayBooking()
-		  {
-		    
-		    System.out.println("The name is : "+this.name);
+           {    
+	            System.out.println("The name is : "+this.name);
 		    System.out.println("The email ID is : "+this.emailID);
 		    System.out.println("The phone no. is : "+this.phoneNo);
 		    System.out.println("Your membership is : "+this.membership);
 		    System.out.println("Your food option is : "+this.vegOptions);
 		    System.out.println("Total number of members registered : "+this.noOfMembers);
-		  }
+	  }
 	    public int acceptDetails(LinkedList<RegisteredUsers> ru1)
 	    {
 	          Scanner scad1 = new Scanner(System.in);
@@ -95,75 +83,73 @@ public class Customer implements Comparable<Customer>
 	          int flag=0;
 	         //***accepting details
 	           do
-	          {
-	        	   
-		             System.out.println("Enter your name :");
+	          {          System.out.println("Enter your name :");
 		             name = scad1.nextLine();
-		              int c=0;
-		               for(int j=0;j<name.length();j++)
-		               {
+		             int c=0;
+		             for(int j=0;j<name.length();j++)
+		             {
 		                 if(Character.isDigit(name.charAt(j)))
 		                    c++;
-		               }
-		                  if(c!=0)
-		                  {
-		                      System.out.println("wrong name entered");
-		                      continue;
-		                   }
-		                  else
-		                    break;
-		           }while(true);
+		             }
+		             if(c!=0)
+		             {
+		                 System.out.println("wrong name entered");
+		                 continue;
+		             }
+		             else
+		             break;
+		   }while(true);
 	        	   
-	        	   Iterator<RegisteredUsers> iter4 = ru1.iterator();
-      		      while (iter4.hasNext()) 
-      		      {
-      		         RegisteredUsers temp1 = iter4.next();
-      		         if(temp1.cname.compareTo(name)==0)
-      		         {
-      		        	 flag++;
-      		        	membership=temp1.membership1;
-      		        	 System.out.println(membership);
-      			      break;
-      		         }
-      		       }
+	        Iterator<RegisteredUsers> iter4 = ru1.iterator();
+      		while (iter4.hasNext()) 
+      		{
+      		   RegisteredUsers temp1 = iter4.next();
+      		   if(temp1.cname.compareTo(name)==0)
+      		   {
+      		       	 flag++;
+      		       	 membership=temp1.membership1;
+      		       	 System.out.println(membership);
+      		         break;
+      		   }
+      		}
       		      if(flag==0)
       		    	System.out.println("Not found in registered users");
       	
 	                    //***accepting email id
-	                     do
-	                     {
-	                        System.out.println("Enter your email ID :");
-	                        emailID = scad2.next();
-	                        if(emailID.indexOf('@')==-1 || emailID.indexOf(".com")==-1)
-	                        {
-	                         System.out.println("Wrong email id entered try again");
-	                         continue;
-	                        }
-	                       else
-	                       break;
-	                     }while(true);
+	          do
+	          {
+	                 System.out.println("Enter your email ID :");
+	                 emailID = scad2.next();
+	                 if(emailID.indexOf('@')==-1 || emailID.indexOf(".com")==-1)
+	                 {
+	                   System.out.println("Wrong email id entered try again");
+	                   continue;
+	                 }
+	               else
+	               break;
+	          }while(true);
 	    
 	                  //***accepting phone number
-	                    do
+	          do
+	          {
+	               System.out.println("Enter your phone number :");
+	               phoneNo = scad3.nextLine();
+	               int count=0;
+	                 for(int j=0;j<phoneNo.length();j++)
+	                 {
+	                    if(Character.isDigit(phoneNo.charAt(j)))
+	                     {
+	                        count++;
+	                     }
+	                  }
+	                if(count==10)
+	                break;
+	                    else
 	                    {
-	                       System.out.println("Enter your phone number :");
-	                        phoneNo = scad3.nextLine();
-	                       int count=0;
-	                      for(int j=0;j<phoneNo.length();j++)
-	                       {
-	                        if(Character.isDigit(phoneNo.charAt(j)))
-	                        {
-	                          count++;
-	                         }
-	                       }
-	                      if(count==10)
-	                       break;
-	                       else
-	                       {
-	                        System.out.println("wrong contact number try again");
-	                        continue;
-	                       }
-	                     }while(true);
+	                      System.out.println("wrong contact number try again");
+	                      continue;
+	                    }
+	            }while(true);
 	          
 	                    //accepting number of members
 	                    do
@@ -246,8 +232,7 @@ public class Customer implements Comparable<Customer>
 	                  break;
 	         case 'S':this.priority+=10;
 	                  break;
-	         
-	        }
+	         }
        }//close calculatePriority()
 	     
 	        
@@ -292,35 +277,24 @@ public class Customer implements Comparable<Customer>
                 if(signUpMe==2)
                 {
                 	String customerName;
-	                 String customerPassword;
-	                 int flag1=0;
-	                   System.out.println("You can create your Customer account here");
-	                   System.out.println("Enter your name:");
-	                   customerName=sc6.next();
-	                  
-	                                   
-	                   System.out.println("Create password for your account:");
-	                   customerPassword=sc6.next();
-	                                      
+	                String customerPassword;
+	                int flag1=0;
+	                
+			System.out.println("You can create your Customer account here");
+	                System.out.println("Enter your name:");
+	                customerName=sc6.next();
+	                                 
+	                System.out.println("Create password for your account:");
+	                customerPassword=sc6.next();                     
 	                   	                   
-	                   RegisteredUsers ru2=new RegisteredUsers(customerName,customerPassword,'N');
-	                   
-	                    ru5.add(ru2);
-	                   System.out.println("Account Successfully created!!");
-	                   System.out.println("Now you can enter the tour portal as a customer");  
-	                   //sc9.close();
-	                   return 1;
-	                  
-                }
-                
-            }
-             
-            
-            
-            
+	                RegisteredUsers ru2=new RegisteredUsers(customerName,customerPassword,'N');
+	                ru5.add(ru2);
+	                System.out.println("Account Successfully created!!");
+	                System.out.println("Now you can enter the tour portal as a customer");  
+	                return 1;  
+                }   
+            }            
           }
             return 0;
-	     }
-	   
-	 
+	 }	 
 }
